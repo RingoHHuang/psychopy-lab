@@ -14,7 +14,7 @@ We will create a "Squid Games" version of a classic cognitive psychology experim
 Our version of the Go/No-Go Task will be called **Red Light, Green Light**. In this task, two different visual stimuli will be rapidly presented: an image of the Squid Games doll facing forwards and an image of the doll facing backwards. Participants should respond by pushing the spacebar whenever the doll is facing backwards ("Green Light"). Whenever the doll "turns around" and faces forward, participants should withhold their response ("Red Light").
 
 The Red Light, Green Light stimuli:
-![squid_game_doll_both.png](attachment:resources/squid_game_doll_both.png)
+![squid_game_doll_both.png](resources/squid_game_doll_both.png)
 
 ## Instructions Routine
 We will need two different types of components for our instructions routine: the **Text and Keyboard components**.
