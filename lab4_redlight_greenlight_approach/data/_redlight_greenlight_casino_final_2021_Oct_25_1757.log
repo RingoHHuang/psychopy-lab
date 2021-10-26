@@ -1,0 +1,220 @@
+1.3087 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.7602 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+10.4843 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002210A17F748>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022109F5FCC0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.4849 	EXP 	window1: mouseVisible = True
+10.4850 	EXP 	window1: recordFrameIntervals = False
+10.8180 	EXP 	window1: recordFrameIntervals = True
+11.1854 	EXP 	window1: recordFrameIntervals = False
+11.9606 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.2577 	EXP 	Created doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+12.2666 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 0.7255, -0.8431, -0.5294]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([3., 3.]), units='height', vertices=ndarray(...), win=Window(...))
+12.8436 	EXP 	Created angry_doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='resources\\\\squid_game_doll_angry.png', interpolate=True, mask=None, maskParams=None, name='angry_doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+12.9618 	EXP 	Created circle = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_circle.png', interpolate=True, mask=None, maskParams=None, name='circle', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+13.0578 	EXP 	Created star = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_star.png', interpolate=True, mask=None, maskParams=None, name='star', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+13.1327 	EXP 	Created triangle = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_triangle.png', interpolate=True, mask=None, maskParams=None, name='triangle', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+13.1440 	EXP 	Created next_game = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='next_game', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.2167 	EXP 	Created circle_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_circle.png', interpolate=True, mask=None, maskParams=None, name='circle_2', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+13.3170 	EXP 	Created star_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_star.png', interpolate=True, mask=None, maskParams=None, name='star_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+13.3906 	EXP 	Created triangle_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_triangle.png', interpolate=True, mask=None, maskParams=None, name='triangle_2', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+13.3978 	EXP 	Created next_game_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='next_game_2', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5634 	EXP 	instr_text: autoDraw = True
+14.0466 	DATA 	Mouse: Left button down, pos=(1005,649)
+14.1150 	DATA 	Mouse:  Left button up, pos=(1005,649)
+14.2562 	EXP 	Created sequence: random, trialTypes=1, nReps=300, seed=None
+14.2583 	EXP 	New trial (rep=0, index=0): None
+14.2597 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+14.5786 	DATA 	Keypress: space
+14.5845 	EXP 	instr_text: autoDraw = False
+14.5845 	EXP 	doll_im: size = array([0.14, 0.2 ])
+14.5845 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+14.5845 	EXP 	doll_im: autoDraw = True
+14.9148 	EXP 	doll_im: autoDraw = False
+15.1939 	EXP 	New trial (rep=1, index=0): None
+15.1944 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+15.2893 	EXP 	doll_im: autoDraw = False
+15.2893 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+15.2893 	EXP 	polygon: autoDraw = False
+15.2893 	EXP 	angry_doll_im: autoDraw = False
+15.2893 	EXP 	doll_im: size = array([0.14, 0.2 ])
+15.2893 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+15.2893 	EXP 	doll_im: autoDraw = True
+15.5586 	DATA 	Keypress: space
+15.6190 	EXP 	doll_im: autoDraw = False
+15.9077 	EXP 	New trial (rep=2, index=0): None
+15.9100 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+16.0193 	EXP 	doll_im: autoDraw = False
+16.0193 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+16.0193 	EXP 	polygon: autoDraw = False
+16.0193 	EXP 	angry_doll_im: autoDraw = False
+16.0193 	EXP 	doll_im: size = array([0.161, 0.23 ])
+16.0193 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+16.0193 	EXP 	doll_im: autoDraw = True
+16.3458 	EXP 	doll_im: autoDraw = False
+16.6306 	EXP 	New trial (rep=3, index=0): None
+16.6317 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+16.7342 	EXP 	doll_im: autoDraw = False
+16.7342 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+16.7342 	EXP 	polygon: autoDraw = False
+16.7342 	EXP 	angry_doll_im: autoDraw = False
+16.7342 	EXP 	doll_im: size = array([0.161, 0.23 ])
+16.7342 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+16.7342 	EXP 	doll_im: autoDraw = True
+17.0612 	EXP 	doll_im: autoDraw = False
+17.3464 	EXP 	New trial (rep=4, index=0): None
+17.3479 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+17.4386 	EXP 	doll_im: autoDraw = False
+17.4386 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+17.4386 	EXP 	polygon: autoDraw = False
+17.4386 	EXP 	angry_doll_im: autoDraw = False
+17.4386 	EXP 	doll_im: size = array([0.161, 0.23 ])
+17.4386 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+17.4386 	EXP 	doll_im: autoDraw = True
+17.7682 	EXP 	doll_im: autoDraw = False
+18.0464 	EXP 	New trial (rep=5, index=0): None
+18.0469 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+18.1208 	EXP 	doll_im: autoDraw = False
+18.1208 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+18.1208 	EXP 	polygon: autoDraw = False
+18.1208 	EXP 	angry_doll_im: autoDraw = False
+18.1208 	EXP 	doll_im: size = array([0.161, 0.23 ])
+18.1208 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+18.1208 	EXP 	doll_im: autoDraw = True
+18.4438 	EXP 	doll_im: autoDraw = False
+18.7258 	EXP 	New trial (rep=6, index=0): None
+18.7267 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+18.8051 	EXP 	doll_im: autoDraw = False
+18.8051 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+18.8051 	EXP 	polygon: autoDraw = False
+18.8051 	EXP 	angry_doll_im: autoDraw = False
+18.8051 	EXP 	doll_im: size = array([0.161, 0.23 ])
+18.8051 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+18.8051 	EXP 	doll_im: autoDraw = True
+18.9171 	DATA 	Keypress: space
+19.1082 	EXP 	doll_im: autoDraw = False
+19.3835 	EXP 	New trial (rep=7, index=0): None
+19.3842 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+19.4458 	DATA 	Keypress: space
+19.4582 	EXP 	doll_im: autoDraw = False
+19.4582 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+19.4582 	EXP 	polygon: autoDraw = False
+19.4582 	EXP 	angry_doll_im: autoDraw = False
+19.4582 	EXP 	doll_im: size = array([0.182, 0.26 ])
+19.4582 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+19.4582 	EXP 	doll_im: autoDraw = True
+19.7817 	EXP 	doll_im: autoDraw = False
+20.0597 	EXP 	New trial (rep=8, index=0): None
+20.0605 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+20.1399 	EXP 	doll_im: autoDraw = False
+20.1399 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+20.1399 	EXP 	polygon: autoDraw = False
+20.1399 	EXP 	angry_doll_im: autoDraw = False
+20.1399 	EXP 	doll_im: size = array([0.182, 0.26 ])
+20.1399 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+20.1399 	EXP 	doll_im: autoDraw = True
+20.4639 	EXP 	doll_im: autoDraw = False
+20.4689 	DATA 	Keypress: space
+20.7373 	EXP 	New trial (rep=9, index=0): None
+20.7377 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+20.8045 	EXP 	doll_im: autoDraw = False
+20.8045 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+20.8045 	EXP 	polygon: autoDraw = False
+20.8045 	EXP 	angry_doll_im: autoDraw = False
+20.8045 	EXP 	doll_im: size = array([0.203, 0.29 ])
+20.8045 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+20.8045 	EXP 	doll_im: autoDraw = True
+21.1289 	EXP 	doll_im: autoDraw = False
+21.2340 	DATA 	Keypress: space
+21.4036 	EXP 	New trial (rep=10, index=0): None
+21.4043 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+21.4671 	EXP 	doll_im: autoDraw = False
+21.4671 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+21.4671 	EXP 	polygon: autoDraw = False
+21.4671 	EXP 	angry_doll_im: autoDraw = False
+21.4671 	EXP 	doll_im: size = array([0.224, 0.32 ])
+21.4671 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+21.4671 	EXP 	doll_im: autoDraw = True
+21.7680 	DATA 	Keypress: space
+21.7956 	EXP 	doll_im: autoDraw = False
+22.0701 	EXP 	New trial (rep=11, index=0): None
+22.0705 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+22.1458 	EXP 	doll_im: autoDraw = False
+22.1458 	EXP 	angry_doll_im: size = array([0.224, 0.32 ])
+22.1458 	EXP 	polygon: autoDraw = False
+22.1458 	EXP 	angry_doll_im: autoDraw = False
+22.1458 	EXP 	doll_im: size = array([0.245, 0.35 ])
+22.1458 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+22.1458 	EXP 	doll_im: autoDraw = True
+22.4112 	DATA 	Keypress: space
+22.4718 	EXP 	doll_im: autoDraw = False
+22.7712 	EXP 	doll_im: autoDraw = False
+22.7712 	EXP 	angry_doll_im: size = array([0.245, 0.35 ])
+22.7712 	EXP 	polygon: autoDraw = True
+22.7712 	EXP 	angry_doll_im: autoDraw = True
+25.7445 	EXP 	New trial (rep=12, index=0): None
+25.7452 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+25.8230 	EXP 	polygon: autoDraw = False
+25.8230 	EXP 	angry_doll_im: autoDraw = False
+25.8230 	EXP 	polygon: autoDraw = False
+25.8230 	EXP 	angry_doll_im: autoDraw = False
+25.8230 	EXP 	doll_im: size = array([0.14, 0.2 ])
+25.8230 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+25.8230 	EXP 	doll_im: autoDraw = True
+26.1486 	EXP 	doll_im: autoDraw = False
+26.2855 	DATA 	Keypress: space
+26.4485 	EXP 	doll_im: autoDraw = False
+26.4485 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+26.4485 	EXP 	polygon: autoDraw = True
+26.4485 	EXP 	angry_doll_im: autoDraw = True
+29.4204 	EXP 	New trial (rep=13, index=0): None
+29.4210 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+29.4965 	EXP 	polygon: autoDraw = False
+29.4965 	EXP 	angry_doll_im: autoDraw = False
+29.4965 	EXP 	polygon: autoDraw = False
+29.4965 	EXP 	angry_doll_im: autoDraw = False
+29.4965 	EXP 	doll_im: size = array([0.14, 0.2 ])
+29.4965 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+29.4965 	EXP 	doll_im: autoDraw = True
+29.8203 	EXP 	doll_im: autoDraw = False
+29.9263 	DATA 	Keypress: space
+30.1075 	EXP 	New trial (rep=14, index=0): None
+30.1091 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+30.1874 	EXP 	doll_im: autoDraw = False
+30.1874 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+30.1874 	EXP 	polygon: autoDraw = False
+30.1874 	EXP 	angry_doll_im: autoDraw = False
+30.1874 	EXP 	doll_im: size = array([0.161, 0.23 ])
+30.1874 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+30.1874 	EXP 	doll_im: autoDraw = True
+30.5125 	EXP 	doll_im: autoDraw = False
+30.5504 	DATA 	Keypress: space
+30.7897 	EXP 	New trial (rep=15, index=0): None
+30.7902 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+30.8615 	EXP 	doll_im: autoDraw = False
+30.8615 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+30.8615 	EXP 	polygon: autoDraw = False
+30.8615 	EXP 	angry_doll_im: autoDraw = False
+30.8615 	EXP 	doll_im: size = array([0.182, 0.26 ])
+30.8615 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+30.8615 	EXP 	doll_im: autoDraw = True
+31.1853 	EXP 	doll_im: autoDraw = False
+31.4596 	EXP 	New trial (rep=16, index=0): None
+31.4600 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+31.5244 	EXP 	doll_im: autoDraw = False
+31.5244 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+31.5244 	EXP 	polygon: autoDraw = False
+31.5244 	EXP 	angry_doll_im: autoDraw = False
+31.5244 	EXP 	doll_im: size = array([0.182, 0.26 ])
+31.5244 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+31.5244 	EXP 	doll_im: autoDraw = True
+31.8481 	EXP 	doll_im: autoDraw = False
+32.1234 	EXP 	New trial (rep=17, index=0): None
+32.1241 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+32.1996 	EXP 	doll_im: autoDraw = False
+32.1996 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+32.1996 	EXP 	polygon: autoDraw = False
+32.1996 	EXP 	angry_doll_im: autoDraw = False
+32.1996 	EXP 	doll_im: size = array([0.182, 0.26 ])
+32.1996 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+32.1996 	EXP 	doll_im: autoDraw = True
+32.3269 	DATA 	Keypress: escape
+32.6290 	EXP 	window1: mouseVisible = True
