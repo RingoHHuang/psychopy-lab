@@ -1,0 +1,1894 @@
+5.3029 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+24.7796 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+27.3944 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F37DDFE7B8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F37DC5BCF8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+27.3949 	EXP 	window1: mouseVisible = True
+27.3949 	EXP 	window1: recordFrameIntervals = False
+27.7273 	EXP 	window1: recordFrameIntervals = True
+28.0946 	EXP 	window1: recordFrameIntervals = False
+28.8110 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+29.1503 	EXP 	Created doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+29.1648 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 0.7255, -0.8431, -0.5294]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([3., 3.]), units='height', vertices=ndarray(...), win=Window(...))
+29.7274 	EXP 	Created angry_doll_im = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='resources\\\\squid_game_doll_angry.png', interpolate=True, mask=None, maskParams=None, name='angry_doll_im', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+29.8184 	EXP 	Created circle = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_circle.png', interpolate=True, mask=None, maskParams=None, name='circle', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+29.9121 	EXP 	Created star = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_star.png', interpolate=True, mask=None, maskParams=None, name='star', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+29.9738 	EXP 	Created triangle = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_triangle.png', interpolate=True, mask=None, maskParams=None, name='triangle', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+29.9857 	EXP 	Created next_game = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='next_game', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+30.0692 	EXP 	Created circle_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_circle.png', interpolate=True, mask=None, maskParams=None, name='circle_2', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+30.1552 	EXP 	Created star_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_star.png', interpolate=True, mask=None, maskParams=None, name='star_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+30.2178 	EXP 	Created triangle_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='resources\\\\dalgona_triangle.png', interpolate=True, mask=None, maskParams=None, name='triangle_2', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.3, 0.3]), texRes=128.0, units='height', win=Window(...))
+30.2248 	EXP 	Created next_game_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='next_game_2', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+30.3720 	EXP 	instr_text: autoDraw = True
+31.9335 	EXP 	Created sequence: random, trialTypes=1, nReps=300, seed=None
+31.9370 	EXP 	New trial (rep=0, index=0): None
+31.9382 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+32.3588 	DATA 	Keypress: space
+32.3656 	EXP 	instr_text: autoDraw = False
+32.3656 	EXP 	doll_im: size = array([0.14, 0.2 ])
+32.3656 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+32.3656 	EXP 	doll_im: autoDraw = True
+32.6949 	EXP 	doll_im: autoDraw = False
+32.9752 	EXP 	New trial (rep=1, index=0): None
+32.9759 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+33.0561 	EXP 	doll_im: autoDraw = False
+33.0561 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+33.0561 	EXP 	polygon: autoDraw = False
+33.0561 	EXP 	angry_doll_im: autoDraw = False
+33.0561 	EXP 	doll_im: size = array([0.14, 0.2 ])
+33.0561 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+33.0561 	EXP 	doll_im: autoDraw = True
+33.3854 	EXP 	doll_im: autoDraw = False
+33.6608 	EXP 	New trial (rep=2, index=0): None
+33.6621 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+33.7587 	EXP 	doll_im: autoDraw = False
+33.7587 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+33.7587 	EXP 	polygon: autoDraw = False
+33.7587 	EXP 	angry_doll_im: autoDraw = False
+33.7587 	EXP 	doll_im: size = array([0.14, 0.2 ])
+33.7587 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+33.7587 	EXP 	doll_im: autoDraw = True
+34.0823 	EXP 	doll_im: autoDraw = False
+34.3576 	EXP 	New trial (rep=3, index=0): None
+34.3584 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+34.4340 	EXP 	doll_im: autoDraw = False
+34.4340 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+34.4340 	EXP 	polygon: autoDraw = False
+34.4340 	EXP 	angry_doll_im: autoDraw = False
+34.4340 	EXP 	doll_im: size = array([0.14, 0.2 ])
+34.4340 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+34.4340 	EXP 	doll_im: autoDraw = True
+34.7601 	EXP 	doll_im: autoDraw = False
+34.9318 	DATA 	Keypress: space
+35.0341 	EXP 	New trial (rep=4, index=0): None
+35.0348 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+35.0950 	EXP 	doll_im: autoDraw = False
+35.0950 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+35.0950 	EXP 	polygon: autoDraw = False
+35.0950 	EXP 	angry_doll_im: autoDraw = False
+35.0950 	EXP 	doll_im: size = array([0.161, 0.23 ])
+35.0950 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+35.0950 	EXP 	doll_im: autoDraw = True
+35.3602 	DATA 	Keypress: space
+35.4215 	EXP 	doll_im: autoDraw = False
+35.7121 	EXP 	New trial (rep=5, index=0): None
+35.7133 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+35.7887 	EXP 	doll_im: autoDraw = False
+35.7887 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+35.7887 	EXP 	polygon: autoDraw = False
+35.7887 	EXP 	angry_doll_im: autoDraw = False
+35.7887 	EXP 	doll_im: size = array([0.182, 0.26 ])
+35.7887 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+35.7887 	EXP 	doll_im: autoDraw = True
+35.8537 	DATA 	Keypress: space
+36.1148 	EXP 	doll_im: autoDraw = False
+36.3901 	EXP 	New trial (rep=6, index=0): None
+36.3905 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+36.4529 	EXP 	doll_im: autoDraw = False
+36.4529 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+36.4529 	EXP 	polygon: autoDraw = False
+36.4529 	EXP 	angry_doll_im: autoDraw = False
+36.4529 	EXP 	doll_im: size = array([0.203, 0.29 ])
+36.4529 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+36.4529 	EXP 	doll_im: autoDraw = True
+36.6858 	DATA 	Keypress: space
+36.7805 	EXP 	doll_im: autoDraw = False
+37.0639 	EXP 	New trial (rep=7, index=0): None
+37.0648 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+37.1420 	EXP 	doll_im: autoDraw = False
+37.1420 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+37.1420 	EXP 	polygon: autoDraw = False
+37.1420 	EXP 	angry_doll_im: autoDraw = False
+37.1420 	EXP 	doll_im: size = array([0.224, 0.32 ])
+37.1420 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+37.1420 	EXP 	doll_im: autoDraw = True
+37.4664 	EXP 	doll_im: autoDraw = False
+37.7421 	EXP 	New trial (rep=8, index=0): None
+37.7425 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+37.8198 	EXP 	doll_im: autoDraw = False
+37.8198 	EXP 	angry_doll_im: size = array([0.224, 0.32 ])
+37.8198 	EXP 	polygon: autoDraw = False
+37.8198 	EXP 	angry_doll_im: autoDraw = False
+37.8198 	EXP 	doll_im: size = array([0.224, 0.32 ])
+37.8198 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+37.8198 	EXP 	doll_im: autoDraw = True
+38.1439 	EXP 	doll_im: autoDraw = False
+38.1484 	DATA 	Keypress: space
+38.4192 	EXP 	New trial (rep=9, index=0): None
+38.4198 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+38.4813 	EXP 	doll_im: autoDraw = False
+38.4813 	EXP 	angry_doll_im: size = array([0.224, 0.32 ])
+38.4813 	EXP 	polygon: autoDraw = False
+38.4813 	EXP 	angry_doll_im: autoDraw = False
+38.4813 	EXP 	doll_im: size = array([0.245, 0.35 ])
+38.4813 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+38.4813 	EXP 	doll_im: autoDraw = True
+38.8090 	EXP 	doll_im: autoDraw = False
+38.9469 	DATA 	Keypress: space
+39.0839 	EXP 	New trial (rep=10, index=0): None
+39.0843 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+39.1460 	EXP 	doll_im: autoDraw = False
+39.1460 	EXP 	angry_doll_im: size = array([0.245, 0.35 ])
+39.1460 	EXP 	polygon: autoDraw = False
+39.1460 	EXP 	angry_doll_im: autoDraw = False
+39.1460 	EXP 	doll_im: size = array([0.266, 0.38 ])
+39.1460 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+39.1460 	EXP 	doll_im: autoDraw = True
+39.4738 	EXP 	doll_im: autoDraw = False
+39.7475 	EXP 	New trial (rep=11, index=0): None
+39.7479 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+39.8237 	EXP 	doll_im: autoDraw = False
+39.8237 	EXP 	angry_doll_im: size = array([0.266, 0.38 ])
+39.8237 	EXP 	polygon: autoDraw = False
+39.8237 	EXP 	angry_doll_im: autoDraw = False
+39.8237 	EXP 	doll_im: size = array([0.266, 0.38 ])
+39.8237 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+39.8237 	EXP 	doll_im: autoDraw = True
+40.0530 	DATA 	Keypress: space
+40.1493 	EXP 	doll_im: autoDraw = False
+40.4491 	EXP 	doll_im: autoDraw = False
+40.4491 	EXP 	angry_doll_im: size = array([0.266, 0.38 ])
+40.4491 	EXP 	polygon: autoDraw = True
+40.4491 	EXP 	angry_doll_im: autoDraw = True
+43.4207 	EXP 	New trial (rep=12, index=0): None
+43.4211 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+43.5007 	EXP 	polygon: autoDraw = False
+43.5007 	EXP 	angry_doll_im: autoDraw = False
+43.5007 	EXP 	polygon: autoDraw = False
+43.5007 	EXP 	angry_doll_im: autoDraw = False
+43.5007 	EXP 	doll_im: size = array([0.14, 0.2 ])
+43.5007 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+43.5007 	EXP 	doll_im: autoDraw = True
+43.8259 	EXP 	doll_im: autoDraw = False
+44.1103 	EXP 	New trial (rep=13, index=0): None
+44.1116 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+44.1855 	DATA 	Keypress: space
+44.1972 	EXP 	doll_im: autoDraw = False
+44.1972 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+44.1972 	EXP 	polygon: autoDraw = False
+44.1972 	EXP 	angry_doll_im: autoDraw = False
+44.1972 	EXP 	doll_im: size = array([0.14, 0.2 ])
+44.1972 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+44.1972 	EXP 	doll_im: autoDraw = True
+44.5217 	EXP 	doll_im: autoDraw = False
+44.7961 	EXP 	New trial (rep=14, index=0): None
+44.7965 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+44.8742 	EXP 	doll_im: autoDraw = False
+44.8742 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+44.8742 	EXP 	polygon: autoDraw = False
+44.8742 	EXP 	angry_doll_im: autoDraw = False
+44.8742 	EXP 	doll_im: size = array([0.14, 0.2 ])
+44.8742 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+44.8742 	EXP 	doll_im: autoDraw = True
+45.1978 	EXP 	doll_im: autoDraw = False
+45.4852 	EXP 	New trial (rep=15, index=0): None
+45.4869 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+45.6002 	EXP 	doll_im: autoDraw = False
+45.6002 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+45.6002 	EXP 	polygon: autoDraw = False
+45.6002 	EXP 	angry_doll_im: autoDraw = False
+45.6002 	EXP 	doll_im: size = array([0.14, 0.2 ])
+45.6002 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+45.6002 	EXP 	doll_im: autoDraw = True
+45.9289 	EXP 	doll_im: autoDraw = False
+46.2103 	EXP 	New trial (rep=16, index=0): None
+46.2114 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+46.2715 	EXP 	doll_im: autoDraw = False
+46.2715 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+46.2715 	EXP 	polygon: autoDraw = False
+46.2715 	EXP 	angry_doll_im: autoDraw = False
+46.2715 	EXP 	doll_im: size = array([0.14, 0.2 ])
+46.2715 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+46.2715 	EXP 	doll_im: autoDraw = True
+46.5706 	DATA 	Keypress: space
+46.5986 	EXP 	doll_im: autoDraw = False
+46.8756 	EXP 	New trial (rep=17, index=0): None
+46.8760 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+46.9381 	EXP 	doll_im: autoDraw = False
+46.9381 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+46.9381 	EXP 	polygon: autoDraw = False
+46.9381 	EXP 	angry_doll_im: autoDraw = False
+46.9381 	EXP 	doll_im: size = array([0.161, 0.23 ])
+46.9381 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+46.9381 	EXP 	doll_im: autoDraw = True
+47.2015 	DATA 	Keypress: space
+47.2619 	EXP 	doll_im: autoDraw = False
+47.5375 	EXP 	New trial (rep=18, index=0): None
+47.5379 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+47.6136 	EXP 	doll_im: autoDraw = False
+47.6136 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+47.6136 	EXP 	polygon: autoDraw = False
+47.6136 	EXP 	angry_doll_im: autoDraw = False
+47.6136 	EXP 	doll_im: size = array([0.182, 0.26 ])
+47.6136 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+47.6136 	EXP 	doll_im: autoDraw = True
+47.9371 	EXP 	doll_im: autoDraw = False
+48.2201 	EXP 	New trial (rep=19, index=0): None
+48.2214 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+48.2926 	DATA 	Keypress: space
+48.3003 	EXP 	doll_im: autoDraw = False
+48.3003 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+48.3003 	EXP 	polygon: autoDraw = False
+48.3003 	EXP 	angry_doll_im: autoDraw = False
+48.3003 	EXP 	doll_im: size = array([0.182, 0.26 ])
+48.3003 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+48.3003 	EXP 	doll_im: autoDraw = True
+48.6286 	EXP 	doll_im: autoDraw = False
+48.9036 	EXP 	New trial (rep=20, index=0): None
+48.9041 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+48.9660 	EXP 	doll_im: autoDraw = False
+48.9660 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+48.9660 	EXP 	polygon: autoDraw = False
+48.9660 	EXP 	angry_doll_im: autoDraw = False
+48.9660 	EXP 	doll_im: size = array([0.182, 0.26 ])
+48.9660 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+48.9660 	EXP 	doll_im: autoDraw = True
+49.2905 	EXP 	doll_im: autoDraw = False
+49.5770 	EXP 	New trial (rep=21, index=0): None
+49.5786 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+49.6666 	EXP 	doll_im: autoDraw = False
+49.6666 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+49.6666 	EXP 	polygon: autoDraw = False
+49.6666 	EXP 	angry_doll_im: autoDraw = False
+49.6666 	EXP 	doll_im: size = array([0.182, 0.26 ])
+49.6666 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+49.6666 	EXP 	doll_im: autoDraw = True
+49.9921 	EXP 	doll_im: autoDraw = False
+50.0308 	DATA 	Keypress: space
+50.2670 	EXP 	New trial (rep=22, index=0): None
+50.2674 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+50.3269 	EXP 	doll_im: autoDraw = False
+50.3269 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+50.3269 	EXP 	polygon: autoDraw = False
+50.3269 	EXP 	angry_doll_im: autoDraw = False
+50.3269 	EXP 	doll_im: size = array([0.203, 0.29 ])
+50.3269 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+50.3269 	EXP 	doll_im: autoDraw = True
+50.6544 	EXP 	doll_im: autoDraw = False
+50.9278 	EXP 	New trial (rep=23, index=0): None
+50.9282 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+51.0110 	EXP 	doll_im: autoDraw = False
+51.0110 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+51.0110 	EXP 	polygon: autoDraw = False
+51.0110 	EXP 	angry_doll_im: autoDraw = False
+51.0110 	EXP 	doll_im: size = array([0.203, 0.29 ])
+51.0110 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+51.0110 	EXP 	doll_im: autoDraw = True
+51.3351 	EXP 	doll_im: autoDraw = False
+51.6090 	EXP 	New trial (rep=24, index=0): None
+51.6094 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+51.6839 	EXP 	doll_im: autoDraw = False
+51.6839 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+51.6839 	EXP 	polygon: autoDraw = False
+51.6839 	EXP 	angry_doll_im: autoDraw = False
+51.6839 	EXP 	doll_im: size = array([0.203, 0.29 ])
+51.6839 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+51.6839 	EXP 	doll_im: autoDraw = True
+51.7465 	DATA 	Keypress: space
+52.0085 	EXP 	doll_im: autoDraw = False
+52.2825 	EXP 	New trial (rep=25, index=0): None
+52.2829 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+52.3422 	EXP 	doll_im: autoDraw = False
+52.3422 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+52.3422 	EXP 	polygon: autoDraw = False
+52.3422 	EXP 	angry_doll_im: autoDraw = False
+52.3422 	EXP 	doll_im: size = array([0.224, 0.32 ])
+52.3422 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+52.3422 	EXP 	doll_im: autoDraw = True
+52.6701 	EXP 	doll_im: autoDraw = False
+52.7410 	DATA 	Keypress: space
+52.9582 	EXP 	New trial (rep=26, index=0): None
+52.9600 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+53.0540 	EXP 	doll_im: autoDraw = False
+53.0540 	EXP 	angry_doll_im: size = array([0.224, 0.32 ])
+53.0540 	EXP 	polygon: autoDraw = False
+53.0540 	EXP 	angry_doll_im: autoDraw = False
+53.0540 	EXP 	doll_im: size = array([0.245, 0.35 ])
+53.0540 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+53.0540 	EXP 	doll_im: autoDraw = True
+53.3836 	EXP 	doll_im: autoDraw = False
+53.3891 	DATA 	Keypress: space
+53.6749 	EXP 	New trial (rep=27, index=0): None
+53.6772 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+53.8102 	EXP 	doll_im: autoDraw = False
+53.8102 	EXP 	angry_doll_im: size = array([0.245, 0.35 ])
+53.8102 	EXP 	polygon: autoDraw = False
+53.8102 	EXP 	angry_doll_im: autoDraw = False
+53.8102 	EXP 	doll_im: size = array([0.266, 0.38 ])
+53.8102 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+53.8102 	EXP 	doll_im: autoDraw = True
+54.1386 	EXP 	doll_im: autoDraw = False
+54.2109 	DATA 	Keypress: space
+54.4238 	EXP 	New trial (rep=28, index=0): None
+54.4245 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+54.5135 	EXP 	doll_im: autoDraw = False
+54.5135 	EXP 	angry_doll_im: size = array([0.266, 0.38 ])
+54.5135 	EXP 	polygon: autoDraw = False
+54.5135 	EXP 	angry_doll_im: autoDraw = False
+54.5135 	EXP 	doll_im: size = array([0.287, 0.41 ])
+54.5135 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+54.5135 	EXP 	doll_im: autoDraw = True
+54.8379 	EXP 	doll_im: autoDraw = False
+55.1122 	EXP 	New trial (rep=29, index=0): None
+55.1128 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+55.1889 	EXP 	doll_im: autoDraw = False
+55.1889 	EXP 	angry_doll_im: size = array([0.287, 0.41 ])
+55.1889 	EXP 	polygon: autoDraw = False
+55.1889 	EXP 	angry_doll_im: autoDraw = False
+55.1889 	EXP 	doll_im: size = array([0.287, 0.41 ])
+55.1889 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+55.1889 	EXP 	doll_im: autoDraw = True
+55.4184 	DATA 	Keypress: space
+55.5141 	EXP 	doll_im: autoDraw = False
+55.8063 	EXP 	New trial (rep=30, index=0): None
+55.8083 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+55.9157 	EXP 	doll_im: autoDraw = False
+55.9157 	EXP 	angry_doll_im: size = array([0.287, 0.41 ])
+55.9157 	EXP 	polygon: autoDraw = False
+55.9157 	EXP 	angry_doll_im: autoDraw = False
+55.9157 	EXP 	doll_im: size = array([0.308, 0.44 ])
+55.9157 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+55.9157 	EXP 	doll_im: autoDraw = True
+56.2447 	EXP 	doll_im: autoDraw = False
+56.2826 	DATA 	Keypress: space
+56.5210 	EXP 	New trial (rep=31, index=0): None
+56.5215 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+56.5823 	EXP 	doll_im: autoDraw = False
+56.5823 	EXP 	angry_doll_im: size = array([0.308, 0.44 ])
+56.5823 	EXP 	polygon: autoDraw = False
+56.5823 	EXP 	angry_doll_im: autoDraw = False
+56.5823 	EXP 	doll_im: size = array([0.329, 0.47 ])
+56.5823 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+56.5823 	EXP 	doll_im: autoDraw = True
+56.9074 	EXP 	doll_im: autoDraw = False
+56.9118 	DATA 	Keypress: space
+57.1820 	EXP 	New trial (rep=32, index=0): None
+57.1826 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+57.2740 	EXP 	doll_im: autoDraw = False
+57.2740 	EXP 	angry_doll_im: size = array([0.329, 0.47 ])
+57.2740 	EXP 	polygon: autoDraw = False
+57.2740 	EXP 	angry_doll_im: autoDraw = False
+57.2740 	EXP 	doll_im: size = array([0.35, 0.5 ])
+57.2740 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+57.2740 	EXP 	doll_im: autoDraw = True
+57.5984 	EXP 	doll_im: autoDraw = False
+57.8848 	EXP 	New trial (rep=33, index=0): None
+57.8865 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+57.9553 	EXP 	doll_im: autoDraw = False
+57.9553 	EXP 	angry_doll_im: size = array([0.35, 0.5 ])
+57.9553 	EXP 	polygon: autoDraw = False
+57.9553 	EXP 	angry_doll_im: autoDraw = False
+57.9553 	EXP 	doll_im: size = array([0.35, 0.5 ])
+57.9553 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+57.9553 	EXP 	doll_im: autoDraw = True
+58.1881 	DATA 	Keypress: space
+58.2827 	EXP 	doll_im: autoDraw = False
+58.5824 	EXP 	doll_im: autoDraw = False
+58.5824 	EXP 	angry_doll_im: size = array([0.35, 0.5 ])
+58.5824 	EXP 	polygon: autoDraw = True
+58.5824 	EXP 	angry_doll_im: autoDraw = True
+61.5538 	EXP 	New trial (rep=34, index=0): None
+61.5543 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+61.6388 	EXP 	polygon: autoDraw = False
+61.6388 	EXP 	angry_doll_im: autoDraw = False
+61.6388 	EXP 	polygon: autoDraw = False
+61.6388 	EXP 	angry_doll_im: autoDraw = False
+61.6388 	EXP 	doll_im: size = array([0.14, 0.2 ])
+61.6388 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+61.6388 	EXP 	doll_im: autoDraw = True
+61.9686 	EXP 	doll_im: autoDraw = False
+62.2187 	EXP 	New trial (rep=35, index=0): None
+62.2191 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+62.2986 	EXP 	doll_im: autoDraw = False
+62.2986 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+62.2986 	EXP 	polygon: autoDraw = False
+62.2986 	EXP 	angry_doll_im: autoDraw = False
+62.2986 	EXP 	doll_im: size = array([0.14, 0.2 ])
+62.2986 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+62.2986 	EXP 	doll_im: autoDraw = True
+62.3268 	DATA 	Keypress: space
+62.6220 	EXP 	doll_im: autoDraw = False
+62.9224 	EXP 	doll_im: autoDraw = False
+62.9224 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+62.9224 	EXP 	polygon: autoDraw = True
+62.9224 	EXP 	angry_doll_im: autoDraw = True
+65.8934 	EXP 	New trial (rep=36, index=0): None
+65.8938 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+65.9717 	EXP 	polygon: autoDraw = False
+65.9717 	EXP 	angry_doll_im: autoDraw = False
+65.9717 	EXP 	polygon: autoDraw = False
+65.9717 	EXP 	angry_doll_im: autoDraw = False
+65.9717 	EXP 	doll_im: size = array([0.14, 0.2 ])
+65.9717 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+65.9717 	EXP 	doll_im: autoDraw = True
+66.2937 	EXP 	doll_im: autoDraw = False
+66.5673 	EXP 	New trial (rep=37, index=0): None
+66.5677 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+66.6305 	EXP 	doll_im: autoDraw = False
+66.6305 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+66.6305 	EXP 	polygon: autoDraw = False
+66.6305 	EXP 	angry_doll_im: autoDraw = False
+66.6305 	EXP 	doll_im: size = array([0.14, 0.2 ])
+66.6305 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+66.6305 	EXP 	doll_im: autoDraw = True
+66.7984 	DATA 	Keypress: space
+66.9589 	EXP 	doll_im: autoDraw = False
+67.2466 	EXP 	New trial (rep=38, index=0): None
+67.2478 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+67.3131 	EXP 	doll_im: autoDraw = False
+67.3131 	EXP 	angry_doll_im: size = array([0.14, 0.2 ])
+67.3131 	EXP 	polygon: autoDraw = False
+67.3131 	EXP 	angry_doll_im: autoDraw = False
+67.3131 	EXP 	doll_im: size = array([0.161, 0.23 ])
+67.3131 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+67.3131 	EXP 	doll_im: autoDraw = True
+67.5459 	DATA 	Keypress: space
+67.6421 	EXP 	doll_im: autoDraw = False
+67.9195 	EXP 	New trial (rep=39, index=0): None
+67.9205 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+67.9824 	EXP 	doll_im: autoDraw = False
+67.9824 	EXP 	angry_doll_im: size = array([0.161, 0.23 ])
+67.9824 	EXP 	polygon: autoDraw = False
+67.9824 	EXP 	angry_doll_im: autoDraw = False
+67.9824 	EXP 	doll_im: size = array([0.182, 0.26 ])
+67.9824 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+67.9824 	EXP 	doll_im: autoDraw = True
+68.3089 	EXP 	doll_im: autoDraw = False
+68.3458 	DATA 	Keypress: space
+68.5841 	EXP 	New trial (rep=40, index=0): None
+68.5848 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+68.6608 	EXP 	doll_im: autoDraw = False
+68.6608 	EXP 	angry_doll_im: size = array([0.182, 0.26 ])
+68.6608 	EXP 	polygon: autoDraw = False
+68.6608 	EXP 	angry_doll_im: autoDraw = False
+68.6608 	EXP 	doll_im: size = array([0.203, 0.29 ])
+68.6608 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+68.6608 	EXP 	doll_im: autoDraw = True
+68.9859 	EXP 	doll_im: autoDraw = False
+69.2618 	EXP 	New trial (rep=41, index=0): None
+69.2622 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+69.3226 	EXP 	doll_im: autoDraw = False
+69.3226 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+69.3226 	EXP 	polygon: autoDraw = False
+69.3226 	EXP 	angry_doll_im: autoDraw = False
+69.3226 	EXP 	doll_im: size = array([0.203, 0.29 ])
+69.3226 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+69.3226 	EXP 	doll_im: autoDraw = True
+69.6489 	EXP 	doll_im: autoDraw = False
+69.9231 	EXP 	New trial (rep=42, index=0): None
+69.9235 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+69.9848 	EXP 	doll_im: autoDraw = False
+69.9848 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+69.9848 	EXP 	polygon: autoDraw = False
+69.9848 	EXP 	angry_doll_im: autoDraw = False
+69.9848 	EXP 	doll_im: size = array([0.203, 0.29 ])
+69.9848 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+69.9848 	EXP 	doll_im: autoDraw = True
+70.3130 	EXP 	doll_im: autoDraw = False
+70.5872 	EXP 	New trial (rep=43, index=0): None
+70.5876 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+70.6603 	EXP 	doll_im: autoDraw = False
+70.6603 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+70.6603 	EXP 	polygon: autoDraw = False
+70.6603 	EXP 	angry_doll_im: autoDraw = False
+70.6603 	EXP 	doll_im: size = array([0.203, 0.29 ])
+70.6603 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+70.6603 	EXP 	doll_im: autoDraw = True
+70.9856 	EXP 	doll_im: autoDraw = False
+70.9902 	DATA 	Keypress: space
+71.2724 	EXP 	New trial (rep=44, index=0): None
+71.2734 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+71.3654 	EXP 	doll_im: autoDraw = False
+71.3654 	EXP 	angry_doll_im: size = array([0.203, 0.29 ])
+71.3654 	EXP 	polygon: autoDraw = False
+71.3654 	EXP 	angry_doll_im: autoDraw = False
+71.3654 	EXP 	doll_im: size = array([0.224, 0.32 ])
+71.3654 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+71.3654 	EXP 	doll_im: autoDraw = True
+71.6933 	EXP 	doll_im: autoDraw = False
+71.7310 	DATA 	Keypress: space
+71.9811 	EXP 	New trial (rep=45, index=0): None
+71.9824 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+72.0746 	EXP 	doll_im: autoDraw = False
+72.0746 	EXP 	angry_doll_im: size = array([0.224, 0.32 ])
+72.0746 	EXP 	polygon: autoDraw = False
+72.0746 	EXP 	angry_doll_im: autoDraw = False
+72.0746 	EXP 	doll_im: size = array([0.245, 0.35 ])
+72.0746 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+72.0746 	EXP 	doll_im: autoDraw = True
+72.4037 	EXP 	doll_im: autoDraw = False
+72.4414 	DATA 	Keypress: space
+72.6882 	EXP 	New trial (rep=46, index=0): None
+72.6890 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+72.7676 	EXP 	doll_im: autoDraw = False
+72.7676 	EXP 	angry_doll_im: size = array([0.245, 0.35 ])
+72.7676 	EXP 	polygon: autoDraw = False
+72.7676 	EXP 	angry_doll_im: autoDraw = False
+72.7676 	EXP 	doll_im: size = array([0.266, 0.38 ])
+72.7676 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+72.7676 	EXP 	doll_im: autoDraw = True
+73.0939 	EXP 	doll_im: autoDraw = False
+73.1655 	DATA 	Keypress: space
+73.3678 	EXP 	New trial (rep=47, index=0): None
+73.3681 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+73.4407 	EXP 	doll_im: autoDraw = False
+73.4407 	EXP 	angry_doll_im: size = array([0.266, 0.38 ])
+73.4407 	EXP 	polygon: autoDraw = False
+73.4407 	EXP 	angry_doll_im: autoDraw = False
+73.4407 	EXP 	doll_im: size = array([0.287, 0.41 ])
+73.4407 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+73.4407 	EXP 	doll_im: autoDraw = True
+73.7641 	EXP 	doll_im: autoDraw = False
+74.0413 	EXP 	New trial (rep=48, index=0): None
+74.0419 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+74.1019 	EXP 	doll_im: autoDraw = False
+74.1019 	EXP 	angry_doll_im: size = array([0.287, 0.41 ])
+74.1019 	EXP 	polygon: autoDraw = False
+74.1019 	EXP 	angry_doll_im: autoDraw = False
+74.1019 	EXP 	doll_im: size = array([0.287, 0.41 ])
+74.1019 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+74.1019 	EXP 	doll_im: autoDraw = True
+74.4292 	EXP 	doll_im: autoDraw = False
+74.7046 	EXP 	New trial (rep=49, index=0): None
+74.7051 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+74.7821 	EXP 	doll_im: autoDraw = False
+74.7821 	EXP 	angry_doll_im: size = array([0.287, 0.41 ])
+74.7821 	EXP 	polygon: autoDraw = False
+74.7821 	EXP 	angry_doll_im: autoDraw = False
+74.7821 	EXP 	doll_im: size = array([0.287, 0.41 ])
+74.7821 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+74.7821 	EXP 	doll_im: autoDraw = True
+75.1046 	EXP 	doll_im: autoDraw = False
+75.1428 	DATA 	Keypress: space
+75.3801 	EXP 	New trial (rep=50, index=0): None
+75.3808 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+75.4419 	EXP 	doll_im: autoDraw = False
+75.4419 	EXP 	angry_doll_im: size = array([0.287, 0.41 ])
+75.4419 	EXP 	polygon: autoDraw = False
+75.4419 	EXP 	angry_doll_im: autoDraw = False
+75.4419 	EXP 	doll_im: size = array([0.308, 0.44 ])
+75.4419 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+75.4419 	EXP 	doll_im: autoDraw = True
+75.7696 	EXP 	doll_im: autoDraw = False
+75.8077 	DATA 	Keypress: space
+76.0520 	EXP 	New trial (rep=51, index=0): None
+76.0526 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+76.1144 	EXP 	doll_im: autoDraw = False
+76.1144 	EXP 	angry_doll_im: size = array([0.308, 0.44 ])
+76.1144 	EXP 	polygon: autoDraw = False
+76.1144 	EXP 	angry_doll_im: autoDraw = False
+76.1144 	EXP 	doll_im: size = array([0.329, 0.47 ])
+76.1144 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+76.1144 	EXP 	doll_im: autoDraw = True
+76.4420 	EXP 	doll_im: autoDraw = False
+76.5129 	DATA 	Keypress: space
+76.7309 	EXP 	New trial (rep=52, index=0): None
+76.7328 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+76.8179 	EXP 	doll_im: autoDraw = False
+76.8179 	EXP 	angry_doll_im: size = array([0.329, 0.47 ])
+76.8179 	EXP 	polygon: autoDraw = False
+76.8179 	EXP 	angry_doll_im: autoDraw = False
+76.8179 	EXP 	doll_im: size = array([0.35, 0.5 ])
+76.8179 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+76.8179 	EXP 	doll_im: autoDraw = True
+77.1464 	EXP 	doll_im: autoDraw = False
+77.2521 	DATA 	Keypress: space
+77.4343 	EXP 	New trial (rep=53, index=0): None
+77.4356 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+77.5586 	EXP 	doll_im: autoDraw = False
+77.5586 	EXP 	angry_doll_im: size = array([0.35, 0.5 ])
+77.5586 	EXP 	polygon: autoDraw = False
+77.5586 	EXP 	angry_doll_im: autoDraw = False
+77.5586 	EXP 	doll_im: size = array([0.371, 0.53 ])
+77.5586 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+77.5586 	EXP 	doll_im: autoDraw = True
+77.8576 	EXP 	doll_im: autoDraw = False
+77.9249 	DATA 	Keypress: space
+78.1627 	EXP 	New trial (rep=54, index=0): None
+78.1631 	WARNING 	Requested image 'resources/squid_game_doll_forward' not found but similar filename 'resources/squid_game_doll_forward.png' exists. This will be used instead but changing the filename is advised.
+78.2362 	EXP 	doll_im: autoDraw = False
+78.2362 	EXP 	angry_doll_im: size = array([0.371, 0.53 ])
+78.2362 	EXP 	polygon: autoDraw = False
+78.2362 	EXP 	angry_doll_im: autoDraw = False
+78.2362 	EXP 	doll_im: size = array([0.392, 0.56 ])
+78.2362 	EXP 	doll_im: image = 'resources/squid_game_doll_forward'
+78.2362 	EXP 	doll_im: autoDraw = True
+78.5602 	EXP 	doll_im: autoDraw = False
+78.8468 	EXP 	New trial (rep=55, index=0): None
+78.8482 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+78.9766 	EXP 	doll_im: autoDraw = False
+78.9766 	EXP 	angry_doll_im: size = array([0.392, 0.56 ])
+78.9766 	EXP 	polygon: autoDraw = False
+78.9766 	EXP 	angry_doll_im: autoDraw = False
+78.9766 	EXP 	doll_im: size = array([0.392, 0.56 ])
+78.9766 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+78.9766 	EXP 	doll_im: autoDraw = True
+79.3036 	EXP 	doll_im: autoDraw = False
+79.5901 	EXP 	New trial (rep=56, index=0): None
+79.5916 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+79.7072 	EXP 	doll_im: autoDraw = False
+79.7072 	EXP 	angry_doll_im: size = array([0.392, 0.56 ])
+79.7072 	EXP 	polygon: autoDraw = False
+79.7072 	EXP 	angry_doll_im: autoDraw = False
+79.7072 	EXP 	doll_im: size = array([0.392, 0.56 ])
+79.7072 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+79.7072 	EXP 	doll_im: autoDraw = True
+80.0340 	EXP 	doll_im: autoDraw = False
+80.3219 	EXP 	New trial (rep=57, index=0): None
+80.3236 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+80.4265 	EXP 	doll_im: autoDraw = False
+80.4265 	EXP 	angry_doll_im: size = array([0.392, 0.56 ])
+80.4265 	EXP 	polygon: autoDraw = False
+80.4265 	EXP 	angry_doll_im: autoDraw = False
+80.4265 	EXP 	doll_im: size = array([0.392, 0.56 ])
+80.4265 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+80.4265 	EXP 	doll_im: autoDraw = True
+80.7533 	EXP 	doll_im: autoDraw = False
+80.7916 	DATA 	Keypress: space
+81.0278 	EXP 	New trial (rep=58, index=0): None
+81.0281 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+81.0907 	EXP 	doll_im: autoDraw = False
+81.0907 	EXP 	angry_doll_im: size = array([0.392, 0.56 ])
+81.0907 	EXP 	polygon: autoDraw = False
+81.0907 	EXP 	angry_doll_im: autoDraw = False
+81.0907 	EXP 	doll_im: size = array([0.413, 0.59 ])
+81.0907 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+81.0907 	EXP 	doll_im: autoDraw = True
+81.3877 	DATA 	Keypress: space
+81.4166 	EXP 	doll_im: autoDraw = False
+81.6917 	EXP 	New trial (rep=59, index=0): None
+81.6921 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+81.7551 	EXP 	doll_im: autoDraw = False
+81.7551 	EXP 	angry_doll_im: size = array([0.413, 0.59 ])
+81.7551 	EXP 	polygon: autoDraw = False
+81.7551 	EXP 	angry_doll_im: autoDraw = False
+81.7551 	EXP 	doll_im: size = array([0.434, 0.62 ])
+81.7551 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+81.7551 	EXP 	doll_im: autoDraw = True
+82.0541 	DATA 	Keypress: space
+82.0832 	EXP 	doll_im: autoDraw = False
+82.3581 	EXP 	New trial (rep=60, index=0): None
+82.3588 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+82.4207 	EXP 	doll_im: autoDraw = False
+82.4207 	EXP 	angry_doll_im: size = array([0.434, 0.62 ])
+82.4207 	EXP 	polygon: autoDraw = False
+82.4207 	EXP 	angry_doll_im: autoDraw = False
+82.4207 	EXP 	doll_im: size = array([0.455, 0.65 ])
+82.4207 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+82.4207 	EXP 	doll_im: autoDraw = True
+82.7190 	DATA 	Keypress: space
+82.7475 	EXP 	doll_im: autoDraw = False
+83.0236 	EXP 	New trial (rep=61, index=0): None
+83.0240 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+83.0956 	EXP 	doll_im: autoDraw = False
+83.0956 	EXP 	angry_doll_im: size = array([0.455, 0.65 ])
+83.0956 	EXP 	polygon: autoDraw = False
+83.0956 	EXP 	angry_doll_im: autoDraw = False
+83.0956 	EXP 	doll_im: size = array([0.476, 0.68 ])
+83.0956 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+83.0956 	EXP 	doll_im: autoDraw = True
+83.4243 	EXP 	doll_im: autoDraw = False
+83.4281 	DATA 	Keypress: space
+83.6996 	EXP 	New trial (rep=62, index=0): None
+83.7001 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+83.7640 	EXP 	doll_im: autoDraw = False
+83.7640 	EXP 	angry_doll_im: size = array([0.476, 0.68 ])
+83.7640 	EXP 	polygon: autoDraw = False
+83.7640 	EXP 	angry_doll_im: autoDraw = False
+83.7640 	EXP 	doll_im: size = array([0.497, 0.71 ])
+83.7640 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+83.7640 	EXP 	doll_im: autoDraw = True
+84.0897 	EXP 	doll_im: autoDraw = False
+84.0951 	DATA 	Keypress: space
+84.3788 	EXP 	New trial (rep=63, index=0): None
+84.3804 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+84.4854 	EXP 	doll_im: autoDraw = False
+84.4854 	EXP 	angry_doll_im: size = array([0.497, 0.71 ])
+84.4854 	EXP 	polygon: autoDraw = False
+84.4854 	EXP 	angry_doll_im: autoDraw = False
+84.4854 	EXP 	doll_im: size = array([0.518, 0.74 ])
+84.4854 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+84.4854 	EXP 	doll_im: autoDraw = True
+84.8123 	EXP 	doll_im: autoDraw = False
+84.8173 	DATA 	Keypress: space
+85.1001 	EXP 	New trial (rep=64, index=0): None
+85.1013 	WARNING 	Requested image 'resources/squid_game_doll_backward' not found but similar filename 'resources/squid_game_doll_backward.png' exists. This will be used instead but changing the filename is advised.
+85.1873 	EXP 	doll_im: autoDraw = False
+85.1873 	EXP 	angry_doll_im: size = array([0.518, 0.74 ])
+85.1873 	EXP 	polygon: autoDraw = False
+85.1873 	EXP 	angry_doll_im: autoDraw = False
+85.1873 	EXP 	doll_im: size = array([0.539, 0.77 ])
+85.1873 	EXP 	doll_im: image = 'resources/squid_game_doll_backward'
+85.1873 	EXP 	doll_im: autoDraw = True
+85.4849 	DATA 	Keypress: space
+85.5141 	EXP 	doll_im: autoDraw = False
+85.7903 	EXP 	Created sequence: random, trialTypes=1, nReps=71, seed=None
+85.7907 	EXP 	New trial (rep=0, index=0): None
+85.8534 	EXP 	doll_im: autoDraw = False
+85.8534 	EXP 	angry_doll_im: size = array([0.539, 0.77 ])
+85.8534 	EXP 	polygon: autoDraw = False
+85.8534 	EXP 	angry_doll_im: autoDraw = False
+85.8534 	EXP 	circle: texRes = 128.0
+85.8534 	EXP 	star: texRes = 128.0
+85.8534 	EXP 	triangle: texRes = 128.0
+85.8534 	EXP 	circle: autoDraw = True
+85.8534 	EXP 	star: autoDraw = True
+85.8534 	EXP 	triangle: autoDraw = True
+85.8534 	EXP 	next_game: autoDraw = True
+85.9528 	EXP 	New trial (rep=1, index=0): None
+85.9837 	EXP 	circle: autoDraw = False
+85.9837 	EXP 	star: autoDraw = False
+85.9837 	EXP 	triangle: autoDraw = False
+85.9837 	EXP 	next_game: autoDraw = False
+85.9837 	EXP 	circle: autoDraw = False
+85.9837 	EXP 	star: autoDraw = False
+85.9837 	EXP 	triangle: autoDraw = False
+85.9837 	EXP 	next_game: autoDraw = False
+85.9837 	EXP 	circle: texRes = 128.0
+85.9837 	EXP 	star: texRes = 128.0
+85.9837 	EXP 	triangle: texRes = 128.0
+85.9837 	EXP 	circle: autoDraw = True
+85.9837 	EXP 	star: autoDraw = True
+85.9837 	EXP 	triangle: autoDraw = True
+85.9837 	EXP 	next_game: autoDraw = True
+86.0859 	EXP 	New trial (rep=2, index=0): None
+86.1158 	EXP 	circle: autoDraw = False
+86.1158 	EXP 	star: autoDraw = False
+86.1158 	EXP 	triangle: autoDraw = False
+86.1158 	EXP 	next_game: autoDraw = False
+86.1158 	EXP 	circle: autoDraw = False
+86.1158 	EXP 	star: autoDraw = False
+86.1158 	EXP 	triangle: autoDraw = False
+86.1158 	EXP 	next_game: autoDraw = False
+86.1158 	EXP 	circle: texRes = 128.0
+86.1158 	EXP 	star: texRes = 128.0
+86.1158 	EXP 	triangle: texRes = 128.0
+86.1158 	EXP 	circle: autoDraw = True
+86.1158 	EXP 	star: autoDraw = True
+86.1158 	EXP 	triangle: autoDraw = True
+86.1158 	EXP 	next_game: autoDraw = True
+86.2178 	EXP 	New trial (rep=3, index=0): None
+86.2473 	EXP 	circle: autoDraw = False
+86.2473 	EXP 	star: autoDraw = False
+86.2473 	EXP 	triangle: autoDraw = False
+86.2473 	EXP 	next_game: autoDraw = False
+86.2473 	EXP 	circle: autoDraw = False
+86.2473 	EXP 	star: autoDraw = False
+86.2473 	EXP 	triangle: autoDraw = False
+86.2473 	EXP 	next_game: autoDraw = False
+86.2473 	EXP 	circle: texRes = 128.0
+86.2473 	EXP 	star: texRes = 128.0
+86.2473 	EXP 	triangle: texRes = 128.0
+86.2473 	EXP 	circle: autoDraw = True
+86.2473 	EXP 	star: autoDraw = True
+86.2473 	EXP 	triangle: autoDraw = True
+86.2473 	EXP 	next_game: autoDraw = True
+86.3219 	EXP 	New trial (rep=4, index=0): None
+86.3617 	EXP 	circle: autoDraw = False
+86.3617 	EXP 	star: autoDraw = False
+86.3617 	EXP 	triangle: autoDraw = False
+86.3617 	EXP 	next_game: autoDraw = False
+86.3617 	EXP 	circle: autoDraw = False
+86.3617 	EXP 	star: autoDraw = False
+86.3617 	EXP 	triangle: autoDraw = False
+86.3617 	EXP 	next_game: autoDraw = False
+86.3617 	EXP 	circle: texRes = 128.0
+86.3617 	EXP 	star: texRes = 128.0
+86.3617 	EXP 	triangle: texRes = 128.0
+86.3617 	EXP 	circle: autoDraw = True
+86.3617 	EXP 	star: autoDraw = True
+86.3617 	EXP 	triangle: autoDraw = True
+86.3617 	EXP 	next_game: autoDraw = True
+86.4642 	EXP 	New trial (rep=5, index=0): None
+86.5031 	EXP 	circle: autoDraw = False
+86.5031 	EXP 	star: autoDraw = False
+86.5031 	EXP 	triangle: autoDraw = False
+86.5031 	EXP 	next_game: autoDraw = False
+86.5031 	EXP 	circle: autoDraw = False
+86.5031 	EXP 	star: autoDraw = False
+86.5031 	EXP 	triangle: autoDraw = False
+86.5031 	EXP 	next_game: autoDraw = False
+86.5031 	EXP 	circle: texRes = 128.0
+86.5031 	EXP 	star: texRes = 128.0
+86.5031 	EXP 	triangle: texRes = 128.0
+86.5031 	EXP 	circle: autoDraw = True
+86.5031 	EXP 	star: autoDraw = True
+86.5031 	EXP 	triangle: autoDraw = True
+86.5031 	EXP 	next_game: autoDraw = True
+86.6039 	EXP 	New trial (rep=6, index=0): None
+86.6387 	EXP 	circle: autoDraw = False
+86.6387 	EXP 	star: autoDraw = False
+86.6387 	EXP 	triangle: autoDraw = False
+86.6387 	EXP 	next_game: autoDraw = False
+86.6387 	EXP 	circle: autoDraw = False
+86.6387 	EXP 	star: autoDraw = False
+86.6387 	EXP 	triangle: autoDraw = False
+86.6387 	EXP 	next_game: autoDraw = False
+86.6387 	EXP 	circle: texRes = 128.0
+86.6387 	EXP 	star: texRes = 128.0
+86.6387 	EXP 	triangle: texRes = 128.0
+86.6387 	EXP 	circle: autoDraw = True
+86.6387 	EXP 	star: autoDraw = True
+86.6387 	EXP 	triangle: autoDraw = True
+86.6387 	EXP 	next_game: autoDraw = True
+86.7379 	EXP 	New trial (rep=7, index=0): None
+86.7713 	EXP 	circle: autoDraw = False
+86.7713 	EXP 	star: autoDraw = False
+86.7713 	EXP 	triangle: autoDraw = False
+86.7713 	EXP 	next_game: autoDraw = False
+86.7713 	EXP 	circle: autoDraw = False
+86.7713 	EXP 	star: autoDraw = False
+86.7713 	EXP 	triangle: autoDraw = False
+86.7713 	EXP 	next_game: autoDraw = False
+86.7713 	EXP 	circle: texRes = 128.0
+86.7713 	EXP 	star: texRes = 128.0
+86.7713 	EXP 	triangle: texRes = 128.0
+86.7713 	EXP 	circle: autoDraw = True
+86.7713 	EXP 	star: autoDraw = True
+86.7713 	EXP 	triangle: autoDraw = True
+86.7713 	EXP 	next_game: autoDraw = True
+86.8720 	EXP 	New trial (rep=8, index=0): None
+86.9018 	EXP 	circle: autoDraw = False
+86.9018 	EXP 	star: autoDraw = False
+86.9018 	EXP 	triangle: autoDraw = False
+86.9018 	EXP 	next_game: autoDraw = False
+86.9018 	EXP 	circle: autoDraw = False
+86.9018 	EXP 	star: autoDraw = False
+86.9018 	EXP 	triangle: autoDraw = False
+86.9018 	EXP 	next_game: autoDraw = False
+86.9018 	EXP 	circle: texRes = 128.0
+86.9018 	EXP 	star: texRes = 128.0
+86.9018 	EXP 	triangle: texRes = 128.0
+86.9018 	EXP 	circle: autoDraw = True
+86.9018 	EXP 	star: autoDraw = True
+86.9018 	EXP 	triangle: autoDraw = True
+86.9018 	EXP 	next_game: autoDraw = True
+86.9727 	EXP 	New trial (rep=9, index=0): None
+87.0016 	EXP 	circle: autoDraw = False
+87.0016 	EXP 	star: autoDraw = False
+87.0016 	EXP 	triangle: autoDraw = False
+87.0016 	EXP 	next_game: autoDraw = False
+87.0016 	EXP 	circle: autoDraw = False
+87.0016 	EXP 	star: autoDraw = False
+87.0016 	EXP 	triangle: autoDraw = False
+87.0016 	EXP 	next_game: autoDraw = False
+87.0016 	EXP 	circle: texRes = 128.0
+87.0016 	EXP 	star: texRes = 128.0
+87.0016 	EXP 	triangle: texRes = 128.0
+87.0016 	EXP 	circle: autoDraw = True
+87.0016 	EXP 	star: autoDraw = True
+87.0016 	EXP 	triangle: autoDraw = True
+87.0016 	EXP 	next_game: autoDraw = True
+87.0723 	EXP 	New trial (rep=10, index=0): None
+87.1084 	EXP 	circle: autoDraw = False
+87.1084 	EXP 	star: autoDraw = False
+87.1084 	EXP 	triangle: autoDraw = False
+87.1084 	EXP 	next_game: autoDraw = False
+87.1084 	EXP 	circle: autoDraw = False
+87.1084 	EXP 	star: autoDraw = False
+87.1084 	EXP 	triangle: autoDraw = False
+87.1084 	EXP 	next_game: autoDraw = False
+87.1084 	EXP 	circle: texRes = 128.0
+87.1084 	EXP 	star: texRes = 128.0
+87.1084 	EXP 	triangle: texRes = 128.0
+87.1084 	EXP 	circle: autoDraw = True
+87.1084 	EXP 	star: autoDraw = True
+87.1084 	EXP 	triangle: autoDraw = True
+87.1084 	EXP 	next_game: autoDraw = True
+87.2113 	EXP 	New trial (rep=11, index=0): None
+87.2649 	EXP 	circle: autoDraw = False
+87.2649 	EXP 	star: autoDraw = False
+87.2649 	EXP 	triangle: autoDraw = False
+87.2649 	EXP 	next_game: autoDraw = False
+87.2649 	EXP 	circle: autoDraw = False
+87.2649 	EXP 	star: autoDraw = False
+87.2649 	EXP 	triangle: autoDraw = False
+87.2649 	EXP 	next_game: autoDraw = False
+87.2649 	EXP 	circle: texRes = 128.0
+87.2649 	EXP 	star: texRes = 128.0
+87.2649 	EXP 	triangle: texRes = 128.0
+87.2649 	EXP 	circle: autoDraw = True
+87.2649 	EXP 	star: autoDraw = True
+87.2649 	EXP 	triangle: autoDraw = True
+87.2649 	EXP 	next_game: autoDraw = True
+87.3616 	EXP 	New trial (rep=12, index=0): None
+87.3935 	EXP 	circle: autoDraw = False
+87.3935 	EXP 	star: autoDraw = False
+87.3935 	EXP 	triangle: autoDraw = False
+87.3935 	EXP 	next_game: autoDraw = False
+87.3935 	EXP 	circle: autoDraw = False
+87.3935 	EXP 	star: autoDraw = False
+87.3935 	EXP 	triangle: autoDraw = False
+87.3935 	EXP 	next_game: autoDraw = False
+87.3935 	EXP 	circle: texRes = 128.0
+87.3935 	EXP 	star: texRes = 128.0
+87.3935 	EXP 	triangle: texRes = 128.0
+87.3935 	EXP 	circle: autoDraw = True
+87.3935 	EXP 	star: autoDraw = True
+87.3935 	EXP 	triangle: autoDraw = True
+87.3935 	EXP 	next_game: autoDraw = True
+87.4937 	EXP 	New trial (rep=13, index=0): None
+87.5270 	EXP 	circle: autoDraw = False
+87.5270 	EXP 	star: autoDraw = False
+87.5270 	EXP 	triangle: autoDraw = False
+87.5270 	EXP 	next_game: autoDraw = False
+87.5270 	EXP 	circle: autoDraw = False
+87.5270 	EXP 	star: autoDraw = False
+87.5270 	EXP 	triangle: autoDraw = False
+87.5270 	EXP 	next_game: autoDraw = False
+87.5270 	EXP 	circle: texRes = 128.0
+87.5270 	EXP 	star: texRes = 128.0
+87.5270 	EXP 	triangle: texRes = 128.0
+87.5270 	EXP 	circle: autoDraw = True
+87.5270 	EXP 	star: autoDraw = True
+87.5270 	EXP 	triangle: autoDraw = True
+87.5270 	EXP 	next_game: autoDraw = True
+87.6291 	EXP 	New trial (rep=14, index=0): None
+87.6674 	EXP 	circle: autoDraw = False
+87.6674 	EXP 	star: autoDraw = False
+87.6674 	EXP 	triangle: autoDraw = False
+87.6674 	EXP 	next_game: autoDraw = False
+87.6674 	EXP 	circle: autoDraw = False
+87.6674 	EXP 	star: autoDraw = False
+87.6674 	EXP 	triangle: autoDraw = False
+87.6674 	EXP 	next_game: autoDraw = False
+87.6674 	EXP 	circle: texRes = 128.0
+87.6674 	EXP 	star: texRes = 128.0
+87.6674 	EXP 	triangle: texRes = 128.0
+87.6674 	EXP 	circle: autoDraw = True
+87.6674 	EXP 	star: autoDraw = True
+87.6674 	EXP 	triangle: autoDraw = True
+87.6674 	EXP 	next_game: autoDraw = True
+87.7678 	EXP 	New trial (rep=15, index=0): None
+87.8052 	EXP 	circle: autoDraw = False
+87.8052 	EXP 	star: autoDraw = False
+87.8052 	EXP 	triangle: autoDraw = False
+87.8052 	EXP 	next_game: autoDraw = False
+87.8052 	EXP 	circle: autoDraw = False
+87.8052 	EXP 	star: autoDraw = False
+87.8052 	EXP 	triangle: autoDraw = False
+87.8052 	EXP 	next_game: autoDraw = False
+87.8052 	EXP 	circle: texRes = 128.0
+87.8052 	EXP 	star: texRes = 128.0
+87.8052 	EXP 	triangle: texRes = 128.0
+87.8052 	EXP 	circle: autoDraw = True
+87.8052 	EXP 	star: autoDraw = True
+87.8052 	EXP 	triangle: autoDraw = True
+87.8052 	EXP 	next_game: autoDraw = True
+87.9024 	EXP 	New trial (rep=16, index=0): None
+87.9317 	EXP 	circle: autoDraw = False
+87.9317 	EXP 	star: autoDraw = False
+87.9317 	EXP 	triangle: autoDraw = False
+87.9317 	EXP 	next_game: autoDraw = False
+87.9317 	EXP 	circle: autoDraw = False
+87.9317 	EXP 	star: autoDraw = False
+87.9317 	EXP 	triangle: autoDraw = False
+87.9317 	EXP 	next_game: autoDraw = False
+87.9317 	EXP 	circle: texRes = 128.0
+87.9317 	EXP 	star: texRes = 128.0
+87.9317 	EXP 	triangle: texRes = 128.0
+87.9317 	EXP 	circle: autoDraw = True
+87.9317 	EXP 	star: autoDraw = True
+87.9317 	EXP 	triangle: autoDraw = True
+87.9317 	EXP 	next_game: autoDraw = True
+88.0011 	EXP 	New trial (rep=17, index=0): None
+88.0311 	EXP 	circle: autoDraw = False
+88.0311 	EXP 	star: autoDraw = False
+88.0311 	EXP 	triangle: autoDraw = False
+88.0311 	EXP 	next_game: autoDraw = False
+88.0311 	EXP 	circle: autoDraw = False
+88.0311 	EXP 	star: autoDraw = False
+88.0311 	EXP 	triangle: autoDraw = False
+88.0311 	EXP 	next_game: autoDraw = False
+88.0311 	EXP 	circle: texRes = 128.0
+88.0311 	EXP 	star: texRes = 128.0
+88.0311 	EXP 	triangle: texRes = 128.0
+88.0311 	EXP 	circle: autoDraw = True
+88.0311 	EXP 	star: autoDraw = True
+88.0311 	EXP 	triangle: autoDraw = True
+88.0311 	EXP 	next_game: autoDraw = True
+88.1030 	EXP 	New trial (rep=18, index=0): None
+88.1410 	EXP 	circle: autoDraw = False
+88.1410 	EXP 	star: autoDraw = False
+88.1410 	EXP 	triangle: autoDraw = False
+88.1410 	EXP 	next_game: autoDraw = False
+88.1410 	EXP 	circle: autoDraw = False
+88.1410 	EXP 	star: autoDraw = False
+88.1410 	EXP 	triangle: autoDraw = False
+88.1410 	EXP 	next_game: autoDraw = False
+88.1410 	EXP 	circle: texRes = 128.0
+88.1410 	EXP 	star: texRes = 128.0
+88.1410 	EXP 	triangle: texRes = 128.0
+88.1410 	EXP 	circle: autoDraw = True
+88.1410 	EXP 	star: autoDraw = True
+88.1410 	EXP 	triangle: autoDraw = True
+88.1410 	EXP 	next_game: autoDraw = True
+88.2432 	EXP 	New trial (rep=19, index=0): None
+88.2975 	EXP 	circle: autoDraw = False
+88.2975 	EXP 	star: autoDraw = False
+88.2975 	EXP 	triangle: autoDraw = False
+88.2975 	EXP 	next_game: autoDraw = False
+88.2975 	EXP 	circle: autoDraw = False
+88.2975 	EXP 	star: autoDraw = False
+88.2975 	EXP 	triangle: autoDraw = False
+88.2975 	EXP 	next_game: autoDraw = False
+88.2975 	EXP 	circle: texRes = 128.0
+88.2975 	EXP 	star: texRes = 128.0
+88.2975 	EXP 	triangle: texRes = 128.0
+88.2975 	EXP 	circle: autoDraw = True
+88.2975 	EXP 	star: autoDraw = True
+88.2975 	EXP 	triangle: autoDraw = True
+88.2975 	EXP 	next_game: autoDraw = True
+88.3995 	EXP 	New trial (rep=20, index=0): None
+88.4623 	EXP 	circle: autoDraw = False
+88.4623 	EXP 	star: autoDraw = False
+88.4623 	EXP 	triangle: autoDraw = False
+88.4623 	EXP 	next_game: autoDraw = False
+88.4623 	EXP 	circle: autoDraw = False
+88.4623 	EXP 	star: autoDraw = False
+88.4623 	EXP 	triangle: autoDraw = False
+88.4623 	EXP 	next_game: autoDraw = False
+88.4623 	EXP 	circle: texRes = 128.0
+88.4623 	EXP 	star: texRes = 128.0
+88.4623 	EXP 	triangle: texRes = 128.0
+88.4623 	EXP 	circle: autoDraw = True
+88.4623 	EXP 	star: autoDraw = True
+88.4623 	EXP 	triangle: autoDraw = True
+88.4623 	EXP 	next_game: autoDraw = True
+88.5663 	EXP 	New trial (rep=21, index=0): None
+88.6314 	EXP 	circle: autoDraw = False
+88.6314 	EXP 	star: autoDraw = False
+88.6314 	EXP 	triangle: autoDraw = False
+88.6314 	EXP 	next_game: autoDraw = False
+88.6314 	EXP 	circle: autoDraw = False
+88.6314 	EXP 	star: autoDraw = False
+88.6314 	EXP 	triangle: autoDraw = False
+88.6314 	EXP 	next_game: autoDraw = False
+88.6314 	EXP 	circle: texRes = 128.0
+88.6314 	EXP 	star: texRes = 128.0
+88.6314 	EXP 	triangle: texRes = 128.0
+88.6314 	EXP 	circle: autoDraw = True
+88.6314 	EXP 	star: autoDraw = True
+88.6314 	EXP 	triangle: autoDraw = True
+88.6314 	EXP 	next_game: autoDraw = True
+88.7314 	EXP 	New trial (rep=22, index=0): None
+88.7791 	EXP 	circle: autoDraw = False
+88.7791 	EXP 	star: autoDraw = False
+88.7791 	EXP 	triangle: autoDraw = False
+88.7791 	EXP 	next_game: autoDraw = False
+88.7791 	EXP 	circle: autoDraw = False
+88.7791 	EXP 	star: autoDraw = False
+88.7791 	EXP 	triangle: autoDraw = False
+88.7791 	EXP 	next_game: autoDraw = False
+88.7791 	EXP 	circle: texRes = 128.0
+88.7791 	EXP 	star: texRes = 128.0
+88.7791 	EXP 	triangle: texRes = 128.0
+88.7791 	EXP 	circle: autoDraw = True
+88.7791 	EXP 	star: autoDraw = True
+88.7791 	EXP 	triangle: autoDraw = True
+88.7791 	EXP 	next_game: autoDraw = True
+88.8803 	EXP 	New trial (rep=23, index=0): None
+88.9175 	EXP 	circle: autoDraw = False
+88.9175 	EXP 	star: autoDraw = False
+88.9175 	EXP 	triangle: autoDraw = False
+88.9175 	EXP 	next_game: autoDraw = False
+88.9175 	EXP 	circle: autoDraw = False
+88.9175 	EXP 	star: autoDraw = False
+88.9175 	EXP 	triangle: autoDraw = False
+88.9175 	EXP 	next_game: autoDraw = False
+88.9175 	EXP 	circle: texRes = 128.0
+88.9175 	EXP 	star: texRes = 128.0
+88.9175 	EXP 	triangle: texRes = 128.0
+88.9175 	EXP 	circle: autoDraw = True
+88.9175 	EXP 	star: autoDraw = True
+88.9175 	EXP 	triangle: autoDraw = True
+88.9175 	EXP 	next_game: autoDraw = True
+89.0134 	EXP 	New trial (rep=24, index=0): None
+89.0429 	EXP 	circle: autoDraw = False
+89.0429 	EXP 	star: autoDraw = False
+89.0429 	EXP 	triangle: autoDraw = False
+89.0429 	EXP 	next_game: autoDraw = False
+89.0429 	EXP 	circle: autoDraw = False
+89.0429 	EXP 	star: autoDraw = False
+89.0429 	EXP 	triangle: autoDraw = False
+89.0429 	EXP 	next_game: autoDraw = False
+89.0429 	EXP 	circle: texRes = 128.0
+89.0429 	EXP 	star: texRes = 128.0
+89.0429 	EXP 	triangle: texRes = 128.0
+89.0429 	EXP 	circle: autoDraw = True
+89.0429 	EXP 	star: autoDraw = True
+89.0429 	EXP 	triangle: autoDraw = True
+89.0429 	EXP 	next_game: autoDraw = True
+89.1141 	EXP 	New trial (rep=25, index=0): None
+89.1435 	EXP 	circle: autoDraw = False
+89.1435 	EXP 	star: autoDraw = False
+89.1435 	EXP 	triangle: autoDraw = False
+89.1435 	EXP 	next_game: autoDraw = False
+89.1435 	EXP 	circle: autoDraw = False
+89.1435 	EXP 	star: autoDraw = False
+89.1435 	EXP 	triangle: autoDraw = False
+89.1435 	EXP 	next_game: autoDraw = False
+89.1435 	EXP 	circle: texRes = 128.0
+89.1435 	EXP 	star: texRes = 128.0
+89.1435 	EXP 	triangle: texRes = 128.0
+89.1435 	EXP 	circle: autoDraw = True
+89.1435 	EXP 	star: autoDraw = True
+89.1435 	EXP 	triangle: autoDraw = True
+89.1435 	EXP 	next_game: autoDraw = True
+89.2142 	EXP 	New trial (rep=26, index=0): None
+89.2463 	EXP 	circle: autoDraw = False
+89.2463 	EXP 	star: autoDraw = False
+89.2463 	EXP 	triangle: autoDraw = False
+89.2463 	EXP 	next_game: autoDraw = False
+89.2463 	EXP 	circle: autoDraw = False
+89.2463 	EXP 	star: autoDraw = False
+89.2463 	EXP 	triangle: autoDraw = False
+89.2463 	EXP 	next_game: autoDraw = False
+89.2463 	EXP 	circle: texRes = 128.0
+89.2463 	EXP 	star: texRes = 128.0
+89.2463 	EXP 	triangle: texRes = 128.0
+89.2463 	EXP 	circle: autoDraw = True
+89.2463 	EXP 	star: autoDraw = True
+89.2463 	EXP 	triangle: autoDraw = True
+89.2463 	EXP 	next_game: autoDraw = True
+89.3464 	EXP 	New trial (rep=27, index=0): None
+89.3794 	EXP 	circle: autoDraw = False
+89.3794 	EXP 	star: autoDraw = False
+89.3794 	EXP 	triangle: autoDraw = False
+89.3794 	EXP 	next_game: autoDraw = False
+89.3794 	EXP 	circle: autoDraw = False
+89.3794 	EXP 	star: autoDraw = False
+89.3794 	EXP 	triangle: autoDraw = False
+89.3794 	EXP 	next_game: autoDraw = False
+89.3794 	EXP 	circle: texRes = 128.0
+89.3794 	EXP 	star: texRes = 128.0
+89.3794 	EXP 	triangle: texRes = 128.0
+89.3794 	EXP 	circle: autoDraw = True
+89.3794 	EXP 	star: autoDraw = True
+89.3794 	EXP 	triangle: autoDraw = True
+89.3794 	EXP 	next_game: autoDraw = True
+89.4815 	EXP 	New trial (rep=28, index=0): None
+89.5112 	EXP 	circle: autoDraw = False
+89.5112 	EXP 	star: autoDraw = False
+89.5112 	EXP 	triangle: autoDraw = False
+89.5112 	EXP 	next_game: autoDraw = False
+89.5112 	EXP 	circle: autoDraw = False
+89.5112 	EXP 	star: autoDraw = False
+89.5112 	EXP 	triangle: autoDraw = False
+89.5112 	EXP 	next_game: autoDraw = False
+89.5112 	EXP 	circle: texRes = 128.0
+89.5112 	EXP 	star: texRes = 128.0
+89.5112 	EXP 	triangle: texRes = 128.0
+89.5112 	EXP 	circle: autoDraw = True
+89.5112 	EXP 	star: autoDraw = True
+89.5112 	EXP 	triangle: autoDraw = True
+89.5112 	EXP 	next_game: autoDraw = True
+89.6141 	EXP 	New trial (rep=29, index=0): None
+89.6470 	EXP 	circle: autoDraw = False
+89.6470 	EXP 	star: autoDraw = False
+89.6470 	EXP 	triangle: autoDraw = False
+89.6470 	EXP 	next_game: autoDraw = False
+89.6470 	EXP 	circle: autoDraw = False
+89.6470 	EXP 	star: autoDraw = False
+89.6470 	EXP 	triangle: autoDraw = False
+89.6470 	EXP 	next_game: autoDraw = False
+89.6470 	EXP 	circle: texRes = 128.0
+89.6470 	EXP 	star: texRes = 128.0
+89.6470 	EXP 	triangle: texRes = 128.0
+89.6470 	EXP 	circle: autoDraw = True
+89.6470 	EXP 	star: autoDraw = True
+89.6470 	EXP 	triangle: autoDraw = True
+89.6470 	EXP 	next_game: autoDraw = True
+89.7467 	EXP 	New trial (rep=30, index=0): None
+89.7775 	EXP 	circle: autoDraw = False
+89.7775 	EXP 	star: autoDraw = False
+89.7775 	EXP 	triangle: autoDraw = False
+89.7775 	EXP 	next_game: autoDraw = False
+89.7775 	EXP 	circle: autoDraw = False
+89.7775 	EXP 	star: autoDraw = False
+89.7775 	EXP 	triangle: autoDraw = False
+89.7775 	EXP 	next_game: autoDraw = False
+89.7775 	EXP 	circle: texRes = 128.0
+89.7775 	EXP 	star: texRes = 128.0
+89.7775 	EXP 	triangle: texRes = 128.0
+89.7775 	EXP 	circle: autoDraw = True
+89.7775 	EXP 	star: autoDraw = True
+89.7775 	EXP 	triangle: autoDraw = True
+89.7775 	EXP 	next_game: autoDraw = True
+89.8465 	EXP 	New trial (rep=31, index=0): None
+89.8761 	EXP 	circle: autoDraw = False
+89.8761 	EXP 	star: autoDraw = False
+89.8761 	EXP 	triangle: autoDraw = False
+89.8761 	EXP 	next_game: autoDraw = False
+89.8761 	EXP 	circle: autoDraw = False
+89.8761 	EXP 	star: autoDraw = False
+89.8761 	EXP 	triangle: autoDraw = False
+89.8761 	EXP 	next_game: autoDraw = False
+89.8761 	EXP 	circle: texRes = 128.0
+89.8761 	EXP 	star: texRes = 128.0
+89.8761 	EXP 	triangle: texRes = 128.0
+89.8761 	EXP 	circle: autoDraw = True
+89.8761 	EXP 	star: autoDraw = True
+89.8761 	EXP 	triangle: autoDraw = True
+89.8761 	EXP 	next_game: autoDraw = True
+89.9473 	EXP 	New trial (rep=32, index=0): None
+89.9775 	EXP 	circle: autoDraw = False
+89.9775 	EXP 	star: autoDraw = False
+89.9775 	EXP 	triangle: autoDraw = False
+89.9775 	EXP 	next_game: autoDraw = False
+89.9775 	EXP 	circle: autoDraw = False
+89.9775 	EXP 	star: autoDraw = False
+89.9775 	EXP 	triangle: autoDraw = False
+89.9775 	EXP 	next_game: autoDraw = False
+89.9775 	EXP 	circle: texRes = 128.0
+89.9775 	EXP 	star: texRes = 128.0
+89.9775 	EXP 	triangle: texRes = 128.0
+89.9775 	EXP 	circle: autoDraw = True
+89.9775 	EXP 	star: autoDraw = True
+89.9775 	EXP 	triangle: autoDraw = True
+89.9775 	EXP 	next_game: autoDraw = True
+90.0486 	EXP 	New trial (rep=33, index=0): None
+90.0846 	EXP 	circle: autoDraw = False
+90.0846 	EXP 	star: autoDraw = False
+90.0846 	EXP 	triangle: autoDraw = False
+90.0846 	EXP 	next_game: autoDraw = False
+90.0846 	EXP 	circle: autoDraw = False
+90.0846 	EXP 	star: autoDraw = False
+90.0846 	EXP 	triangle: autoDraw = False
+90.0846 	EXP 	next_game: autoDraw = False
+90.0846 	EXP 	circle: texRes = 128.0
+90.0846 	EXP 	star: texRes = 128.0
+90.0846 	EXP 	triangle: texRes = 128.0
+90.0846 	EXP 	circle: autoDraw = True
+90.0846 	EXP 	star: autoDraw = True
+90.0846 	EXP 	triangle: autoDraw = True
+90.0846 	EXP 	next_game: autoDraw = True
+90.1875 	EXP 	New trial (rep=34, index=0): None
+90.2197 	EXP 	circle: autoDraw = False
+90.2197 	EXP 	star: autoDraw = False
+90.2197 	EXP 	triangle: autoDraw = False
+90.2197 	EXP 	next_game: autoDraw = False
+90.2197 	EXP 	circle: autoDraw = False
+90.2197 	EXP 	star: autoDraw = False
+90.2197 	EXP 	triangle: autoDraw = False
+90.2197 	EXP 	next_game: autoDraw = False
+90.2197 	EXP 	circle: texRes = 128.0
+90.2197 	EXP 	star: texRes = 128.0
+90.2197 	EXP 	triangle: texRes = 128.0
+90.2197 	EXP 	circle: autoDraw = True
+90.2197 	EXP 	star: autoDraw = True
+90.2197 	EXP 	triangle: autoDraw = True
+90.2197 	EXP 	next_game: autoDraw = True
+90.3190 	EXP 	New trial (rep=35, index=0): None
+90.3528 	EXP 	circle: autoDraw = False
+90.3528 	EXP 	star: autoDraw = False
+90.3528 	EXP 	triangle: autoDraw = False
+90.3528 	EXP 	next_game: autoDraw = False
+90.3528 	EXP 	circle: autoDraw = False
+90.3528 	EXP 	star: autoDraw = False
+90.3528 	EXP 	triangle: autoDraw = False
+90.3528 	EXP 	next_game: autoDraw = False
+90.3528 	EXP 	circle: texRes = 128.0
+90.3528 	EXP 	star: texRes = 128.0
+90.3528 	EXP 	triangle: texRes = 128.0
+90.3528 	EXP 	circle: autoDraw = True
+90.3528 	EXP 	star: autoDraw = True
+90.3528 	EXP 	triangle: autoDraw = True
+90.3528 	EXP 	next_game: autoDraw = True
+90.4536 	EXP 	New trial (rep=36, index=0): None
+90.4975 	EXP 	circle: autoDraw = False
+90.4975 	EXP 	star: autoDraw = False
+90.4975 	EXP 	triangle: autoDraw = False
+90.4975 	EXP 	next_game: autoDraw = False
+90.4975 	EXP 	circle: autoDraw = False
+90.4975 	EXP 	star: autoDraw = False
+90.4975 	EXP 	triangle: autoDraw = False
+90.4975 	EXP 	next_game: autoDraw = False
+90.4975 	EXP 	circle: texRes = 128.0
+90.4975 	EXP 	star: texRes = 128.0
+90.4975 	EXP 	triangle: texRes = 128.0
+90.4975 	EXP 	circle: autoDraw = True
+90.4975 	EXP 	star: autoDraw = True
+90.4975 	EXP 	triangle: autoDraw = True
+90.4975 	EXP 	next_game: autoDraw = True
+90.5994 	EXP 	New trial (rep=37, index=0): None
+90.6444 	EXP 	circle: autoDraw = False
+90.6444 	EXP 	star: autoDraw = False
+90.6444 	EXP 	triangle: autoDraw = False
+90.6444 	EXP 	next_game: autoDraw = False
+90.6444 	EXP 	circle: autoDraw = False
+90.6444 	EXP 	star: autoDraw = False
+90.6444 	EXP 	triangle: autoDraw = False
+90.6444 	EXP 	next_game: autoDraw = False
+90.6444 	EXP 	circle: texRes = 128.0
+90.6444 	EXP 	star: texRes = 128.0
+90.6444 	EXP 	triangle: texRes = 128.0
+90.6444 	EXP 	circle: autoDraw = True
+90.6444 	EXP 	star: autoDraw = True
+90.6444 	EXP 	triangle: autoDraw = True
+90.6444 	EXP 	next_game: autoDraw = True
+90.7417 	EXP 	New trial (rep=38, index=0): None
+90.7750 	EXP 	circle: autoDraw = False
+90.7750 	EXP 	star: autoDraw = False
+90.7750 	EXP 	triangle: autoDraw = False
+90.7750 	EXP 	next_game: autoDraw = False
+90.7750 	EXP 	circle: autoDraw = False
+90.7750 	EXP 	star: autoDraw = False
+90.7750 	EXP 	triangle: autoDraw = False
+90.7750 	EXP 	next_game: autoDraw = False
+90.7750 	EXP 	circle: texRes = 128.0
+90.7750 	EXP 	star: texRes = 128.0
+90.7750 	EXP 	triangle: texRes = 128.0
+90.7750 	EXP 	circle: autoDraw = True
+90.7750 	EXP 	star: autoDraw = True
+90.7750 	EXP 	triangle: autoDraw = True
+90.7750 	EXP 	next_game: autoDraw = True
+90.8748 	EXP 	New trial (rep=39, index=0): None
+90.9104 	EXP 	circle: autoDraw = False
+90.9104 	EXP 	star: autoDraw = False
+90.9104 	EXP 	triangle: autoDraw = False
+90.9104 	EXP 	next_game: autoDraw = False
+90.9104 	EXP 	circle: autoDraw = False
+90.9104 	EXP 	star: autoDraw = False
+90.9104 	EXP 	triangle: autoDraw = False
+90.9104 	EXP 	next_game: autoDraw = False
+90.9104 	EXP 	circle: texRes = 128.0
+90.9104 	EXP 	star: texRes = 128.0
+90.9104 	EXP 	triangle: texRes = 128.0
+90.9104 	EXP 	circle: autoDraw = True
+90.9104 	EXP 	star: autoDraw = True
+90.9104 	EXP 	triangle: autoDraw = True
+90.9104 	EXP 	next_game: autoDraw = True
+91.0078 	EXP 	New trial (rep=40, index=0): None
+91.0372 	EXP 	circle: autoDraw = False
+91.0372 	EXP 	star: autoDraw = False
+91.0372 	EXP 	triangle: autoDraw = False
+91.0372 	EXP 	next_game: autoDraw = False
+91.0372 	EXP 	circle: autoDraw = False
+91.0372 	EXP 	star: autoDraw = False
+91.0372 	EXP 	triangle: autoDraw = False
+91.0372 	EXP 	next_game: autoDraw = False
+91.0372 	EXP 	circle: texRes = 128.0
+91.0372 	EXP 	star: texRes = 128.0
+91.0372 	EXP 	triangle: texRes = 128.0
+91.0372 	EXP 	circle: autoDraw = True
+91.0372 	EXP 	star: autoDraw = True
+91.0372 	EXP 	triangle: autoDraw = True
+91.0372 	EXP 	next_game: autoDraw = True
+91.1068 	EXP 	New trial (rep=41, index=0): None
+91.1411 	EXP 	circle: autoDraw = False
+91.1411 	EXP 	star: autoDraw = False
+91.1411 	EXP 	triangle: autoDraw = False
+91.1411 	EXP 	next_game: autoDraw = False
+91.1411 	EXP 	circle: autoDraw = False
+91.1411 	EXP 	star: autoDraw = False
+91.1411 	EXP 	triangle: autoDraw = False
+91.1411 	EXP 	next_game: autoDraw = False
+91.1411 	EXP 	circle: texRes = 128.0
+91.1411 	EXP 	star: texRes = 128.0
+91.1411 	EXP 	triangle: texRes = 128.0
+91.1411 	EXP 	circle: autoDraw = True
+91.1411 	EXP 	star: autoDraw = True
+91.1411 	EXP 	triangle: autoDraw = True
+91.1411 	EXP 	next_game: autoDraw = True
+91.2414 	EXP 	New trial (rep=42, index=0): None
+91.2747 	EXP 	circle: autoDraw = False
+91.2747 	EXP 	star: autoDraw = False
+91.2747 	EXP 	triangle: autoDraw = False
+91.2747 	EXP 	next_game: autoDraw = False
+91.2747 	EXP 	circle: autoDraw = False
+91.2747 	EXP 	star: autoDraw = False
+91.2747 	EXP 	triangle: autoDraw = False
+91.2747 	EXP 	next_game: autoDraw = False
+91.2747 	EXP 	circle: texRes = 128.0
+91.2747 	EXP 	star: texRes = 128.0
+91.2747 	EXP 	triangle: texRes = 128.0
+91.2747 	EXP 	circle: autoDraw = True
+91.2747 	EXP 	star: autoDraw = True
+91.2747 	EXP 	triangle: autoDraw = True
+91.2747 	EXP 	next_game: autoDraw = True
+91.3756 	EXP 	New trial (rep=43, index=0): None
+91.4097 	EXP 	circle: autoDraw = False
+91.4097 	EXP 	star: autoDraw = False
+91.4097 	EXP 	triangle: autoDraw = False
+91.4097 	EXP 	next_game: autoDraw = False
+91.4097 	EXP 	circle: autoDraw = False
+91.4097 	EXP 	star: autoDraw = False
+91.4097 	EXP 	triangle: autoDraw = False
+91.4097 	EXP 	next_game: autoDraw = False
+91.4097 	EXP 	circle: texRes = 128.0
+91.4097 	EXP 	star: texRes = 128.0
+91.4097 	EXP 	triangle: texRes = 128.0
+91.4097 	EXP 	circle: autoDraw = True
+91.4097 	EXP 	star: autoDraw = True
+91.4097 	EXP 	triangle: autoDraw = True
+91.4097 	EXP 	next_game: autoDraw = True
+91.5069 	EXP 	New trial (rep=44, index=0): None
+91.5364 	EXP 	circle: autoDraw = False
+91.5364 	EXP 	star: autoDraw = False
+91.5364 	EXP 	triangle: autoDraw = False
+91.5364 	EXP 	next_game: autoDraw = False
+91.5364 	EXP 	circle: autoDraw = False
+91.5364 	EXP 	star: autoDraw = False
+91.5364 	EXP 	triangle: autoDraw = False
+91.5364 	EXP 	next_game: autoDraw = False
+91.5364 	EXP 	circle: texRes = 128.0
+91.5364 	EXP 	star: texRes = 128.0
+91.5364 	EXP 	triangle: texRes = 128.0
+91.5364 	EXP 	circle: autoDraw = True
+91.5364 	EXP 	star: autoDraw = True
+91.5364 	EXP 	triangle: autoDraw = True
+91.5364 	EXP 	next_game: autoDraw = True
+91.6071 	EXP 	New trial (rep=45, index=0): None
+91.6508 	EXP 	circle: autoDraw = False
+91.6508 	EXP 	star: autoDraw = False
+91.6508 	EXP 	triangle: autoDraw = False
+91.6508 	EXP 	next_game: autoDraw = False
+91.6508 	EXP 	circle: autoDraw = False
+91.6508 	EXP 	star: autoDraw = False
+91.6508 	EXP 	triangle: autoDraw = False
+91.6508 	EXP 	next_game: autoDraw = False
+91.6508 	EXP 	circle: texRes = 128.0
+91.6508 	EXP 	star: texRes = 128.0
+91.6508 	EXP 	triangle: texRes = 128.0
+91.6508 	EXP 	circle: autoDraw = True
+91.6508 	EXP 	star: autoDraw = True
+91.6508 	EXP 	triangle: autoDraw = True
+91.6508 	EXP 	next_game: autoDraw = True
+91.7486 	EXP 	New trial (rep=46, index=0): None
+91.7968 	EXP 	circle: autoDraw = False
+91.7968 	EXP 	star: autoDraw = False
+91.7968 	EXP 	triangle: autoDraw = False
+91.7968 	EXP 	next_game: autoDraw = False
+91.7968 	EXP 	circle: autoDraw = False
+91.7968 	EXP 	star: autoDraw = False
+91.7968 	EXP 	triangle: autoDraw = False
+91.7968 	EXP 	next_game: autoDraw = False
+91.7968 	EXP 	circle: texRes = 128.0
+91.7968 	EXP 	star: texRes = 128.0
+91.7968 	EXP 	triangle: texRes = 128.0
+91.7968 	EXP 	circle: autoDraw = True
+91.7968 	EXP 	star: autoDraw = True
+91.7968 	EXP 	triangle: autoDraw = True
+91.7968 	EXP 	next_game: autoDraw = True
+91.8967 	EXP 	New trial (rep=47, index=0): None
+91.9306 	EXP 	circle: autoDraw = False
+91.9306 	EXP 	star: autoDraw = False
+91.9306 	EXP 	triangle: autoDraw = False
+91.9306 	EXP 	next_game: autoDraw = False
+91.9306 	EXP 	circle: autoDraw = False
+91.9306 	EXP 	star: autoDraw = False
+91.9306 	EXP 	triangle: autoDraw = False
+91.9306 	EXP 	next_game: autoDraw = False
+91.9306 	EXP 	circle: texRes = 128.0
+91.9306 	EXP 	star: texRes = 128.0
+91.9306 	EXP 	triangle: texRes = 128.0
+91.9306 	EXP 	circle: autoDraw = True
+91.9306 	EXP 	star: autoDraw = True
+91.9306 	EXP 	triangle: autoDraw = True
+91.9306 	EXP 	next_game: autoDraw = True
+92.0305 	EXP 	New trial (rep=48, index=0): None
+92.0613 	EXP 	circle: autoDraw = False
+92.0613 	EXP 	star: autoDraw = False
+92.0613 	EXP 	triangle: autoDraw = False
+92.0613 	EXP 	next_game: autoDraw = False
+92.0613 	EXP 	circle: autoDraw = False
+92.0613 	EXP 	star: autoDraw = False
+92.0613 	EXP 	triangle: autoDraw = False
+92.0613 	EXP 	next_game: autoDraw = False
+92.0613 	EXP 	circle: texRes = 128.0
+92.0613 	EXP 	star: texRes = 128.0
+92.0613 	EXP 	triangle: texRes = 128.0
+92.0613 	EXP 	circle: autoDraw = True
+92.0613 	EXP 	star: autoDraw = True
+92.0613 	EXP 	triangle: autoDraw = True
+92.0613 	EXP 	next_game: autoDraw = True
+92.1659 	EXP 	New trial (rep=49, index=0): None
+92.2206 	EXP 	circle: autoDraw = False
+92.2206 	EXP 	star: autoDraw = False
+92.2206 	EXP 	triangle: autoDraw = False
+92.2206 	EXP 	next_game: autoDraw = False
+92.2206 	EXP 	circle: autoDraw = False
+92.2206 	EXP 	star: autoDraw = False
+92.2206 	EXP 	triangle: autoDraw = False
+92.2206 	EXP 	next_game: autoDraw = False
+92.2206 	EXP 	circle: texRes = 128.0
+92.2206 	EXP 	star: texRes = 128.0
+92.2206 	EXP 	triangle: texRes = 128.0
+92.2206 	EXP 	circle: autoDraw = True
+92.2206 	EXP 	star: autoDraw = True
+92.2206 	EXP 	triangle: autoDraw = True
+92.2206 	EXP 	next_game: autoDraw = True
+92.3181 	EXP 	New trial (rep=50, index=0): None
+92.3512 	EXP 	circle: autoDraw = False
+92.3512 	EXP 	star: autoDraw = False
+92.3512 	EXP 	triangle: autoDraw = False
+92.3512 	EXP 	next_game: autoDraw = False
+92.3512 	EXP 	circle: autoDraw = False
+92.3512 	EXP 	star: autoDraw = False
+92.3512 	EXP 	triangle: autoDraw = False
+92.3512 	EXP 	next_game: autoDraw = False
+92.3512 	EXP 	circle: texRes = 128.0
+92.3512 	EXP 	star: texRes = 128.0
+92.3512 	EXP 	triangle: texRes = 128.0
+92.3512 	EXP 	circle: autoDraw = True
+92.3512 	EXP 	star: autoDraw = True
+92.3512 	EXP 	triangle: autoDraw = True
+92.3512 	EXP 	next_game: autoDraw = True
+92.4518 	EXP 	New trial (rep=51, index=0): None
+92.4906 	EXP 	circle: autoDraw = False
+92.4906 	EXP 	star: autoDraw = False
+92.4906 	EXP 	triangle: autoDraw = False
+92.4906 	EXP 	next_game: autoDraw = False
+92.4906 	EXP 	circle: autoDraw = False
+92.4906 	EXP 	star: autoDraw = False
+92.4906 	EXP 	triangle: autoDraw = False
+92.4906 	EXP 	next_game: autoDraw = False
+92.4906 	EXP 	circle: texRes = 128.0
+92.4906 	EXP 	star: texRes = 128.0
+92.4906 	EXP 	triangle: texRes = 128.0
+92.4906 	EXP 	circle: autoDraw = True
+92.4906 	EXP 	star: autoDraw = True
+92.4906 	EXP 	triangle: autoDraw = True
+92.4906 	EXP 	next_game: autoDraw = True
+92.5863 	EXP 	New trial (rep=52, index=0): None
+92.6166 	EXP 	circle: autoDraw = False
+92.6166 	EXP 	star: autoDraw = False
+92.6166 	EXP 	triangle: autoDraw = False
+92.6166 	EXP 	next_game: autoDraw = False
+92.6166 	EXP 	circle: autoDraw = False
+92.6166 	EXP 	star: autoDraw = False
+92.6166 	EXP 	triangle: autoDraw = False
+92.6166 	EXP 	next_game: autoDraw = False
+92.6166 	EXP 	circle: texRes = 128.0
+92.6166 	EXP 	star: texRes = 128.0
+92.6166 	EXP 	triangle: texRes = 128.0
+92.6166 	EXP 	circle: autoDraw = True
+92.6166 	EXP 	star: autoDraw = True
+92.6166 	EXP 	triangle: autoDraw = True
+92.6166 	EXP 	next_game: autoDraw = True
+92.6880 	EXP 	New trial (rep=53, index=0): None
+92.7292 	EXP 	circle: autoDraw = False
+92.7292 	EXP 	star: autoDraw = False
+92.7292 	EXP 	triangle: autoDraw = False
+92.7292 	EXP 	next_game: autoDraw = False
+92.7292 	EXP 	circle: autoDraw = False
+92.7292 	EXP 	star: autoDraw = False
+92.7292 	EXP 	triangle: autoDraw = False
+92.7292 	EXP 	next_game: autoDraw = False
+92.7292 	EXP 	circle: texRes = 128.0
+92.7292 	EXP 	star: texRes = 128.0
+92.7292 	EXP 	triangle: texRes = 128.0
+92.7292 	EXP 	circle: autoDraw = True
+92.7292 	EXP 	star: autoDraw = True
+92.7292 	EXP 	triangle: autoDraw = True
+92.7292 	EXP 	next_game: autoDraw = True
+92.8271 	EXP 	New trial (rep=54, index=0): None
+92.8600 	EXP 	circle: autoDraw = False
+92.8600 	EXP 	star: autoDraw = False
+92.8600 	EXP 	triangle: autoDraw = False
+92.8600 	EXP 	next_game: autoDraw = False
+92.8600 	EXP 	circle: autoDraw = False
+92.8600 	EXP 	star: autoDraw = False
+92.8600 	EXP 	triangle: autoDraw = False
+92.8600 	EXP 	next_game: autoDraw = False
+92.8600 	EXP 	circle: texRes = 128.0
+92.8600 	EXP 	star: texRes = 128.0
+92.8600 	EXP 	triangle: texRes = 128.0
+92.8600 	EXP 	circle: autoDraw = True
+92.8600 	EXP 	star: autoDraw = True
+92.8600 	EXP 	triangle: autoDraw = True
+92.8600 	EXP 	next_game: autoDraw = True
+92.9611 	EXP 	New trial (rep=55, index=0): None
+92.9967 	EXP 	circle: autoDraw = False
+92.9967 	EXP 	star: autoDraw = False
+92.9967 	EXP 	triangle: autoDraw = False
+92.9967 	EXP 	next_game: autoDraw = False
+92.9967 	EXP 	circle: autoDraw = False
+92.9967 	EXP 	star: autoDraw = False
+92.9967 	EXP 	triangle: autoDraw = False
+92.9967 	EXP 	next_game: autoDraw = False
+92.9967 	EXP 	circle: texRes = 128.0
+92.9967 	EXP 	star: texRes = 128.0
+92.9967 	EXP 	triangle: texRes = 128.0
+92.9967 	EXP 	circle: autoDraw = True
+92.9967 	EXP 	star: autoDraw = True
+92.9967 	EXP 	triangle: autoDraw = True
+92.9967 	EXP 	next_game: autoDraw = True
+93.0954 	EXP 	New trial (rep=56, index=0): None
+93.1331 	EXP 	circle: autoDraw = False
+93.1331 	EXP 	star: autoDraw = False
+93.1331 	EXP 	triangle: autoDraw = False
+93.1331 	EXP 	next_game: autoDraw = False
+93.1331 	EXP 	circle: autoDraw = False
+93.1331 	EXP 	star: autoDraw = False
+93.1331 	EXP 	triangle: autoDraw = False
+93.1331 	EXP 	next_game: autoDraw = False
+93.1331 	EXP 	circle: texRes = 128.0
+93.1331 	EXP 	star: texRes = 128.0
+93.1331 	EXP 	triangle: texRes = 128.0
+93.1331 	EXP 	circle: autoDraw = True
+93.1331 	EXP 	star: autoDraw = True
+93.1331 	EXP 	triangle: autoDraw = True
+93.1331 	EXP 	next_game: autoDraw = True
+93.2335 	EXP 	New trial (rep=57, index=0): None
+93.2769 	EXP 	circle: autoDraw = False
+93.2769 	EXP 	star: autoDraw = False
+93.2769 	EXP 	triangle: autoDraw = False
+93.2769 	EXP 	next_game: autoDraw = False
+93.2769 	EXP 	circle: autoDraw = False
+93.2769 	EXP 	star: autoDraw = False
+93.2769 	EXP 	triangle: autoDraw = False
+93.2769 	EXP 	next_game: autoDraw = False
+93.2769 	EXP 	circle: texRes = 128.0
+93.2769 	EXP 	star: texRes = 128.0
+93.2769 	EXP 	triangle: texRes = 128.0
+93.2769 	EXP 	circle: autoDraw = True
+93.2769 	EXP 	star: autoDraw = True
+93.2769 	EXP 	triangle: autoDraw = True
+93.2769 	EXP 	next_game: autoDraw = True
+93.3744 	EXP 	New trial (rep=58, index=0): None
+93.4149 	EXP 	circle: autoDraw = False
+93.4149 	EXP 	star: autoDraw = False
+93.4149 	EXP 	triangle: autoDraw = False
+93.4149 	EXP 	next_game: autoDraw = False
+93.4149 	EXP 	circle: autoDraw = False
+93.4149 	EXP 	star: autoDraw = False
+93.4149 	EXP 	triangle: autoDraw = False
+93.4149 	EXP 	next_game: autoDraw = False
+93.4149 	EXP 	circle: texRes = 128.0
+93.4149 	EXP 	star: texRes = 128.0
+93.4149 	EXP 	triangle: texRes = 128.0
+93.4149 	EXP 	circle: autoDraw = True
+93.4149 	EXP 	star: autoDraw = True
+93.4149 	EXP 	triangle: autoDraw = True
+93.4149 	EXP 	next_game: autoDraw = True
+93.5172 	EXP 	New trial (rep=59, index=0): None
+93.5608 	EXP 	circle: autoDraw = False
+93.5608 	EXP 	star: autoDraw = False
+93.5608 	EXP 	triangle: autoDraw = False
+93.5608 	EXP 	next_game: autoDraw = False
+93.5608 	EXP 	circle: autoDraw = False
+93.5608 	EXP 	star: autoDraw = False
+93.5608 	EXP 	triangle: autoDraw = False
+93.5608 	EXP 	next_game: autoDraw = False
+93.5608 	EXP 	circle: texRes = 128.0
+93.5608 	EXP 	star: texRes = 128.0
+93.5608 	EXP 	triangle: texRes = 128.0
+93.5608 	EXP 	circle: autoDraw = True
+93.5608 	EXP 	star: autoDraw = True
+93.5608 	EXP 	triangle: autoDraw = True
+93.5608 	EXP 	next_game: autoDraw = True
+93.6579 	EXP 	New trial (rep=60, index=0): None
+93.6980 	EXP 	circle: autoDraw = False
+93.6980 	EXP 	star: autoDraw = False
+93.6980 	EXP 	triangle: autoDraw = False
+93.6980 	EXP 	next_game: autoDraw = False
+93.6980 	EXP 	circle: autoDraw = False
+93.6980 	EXP 	star: autoDraw = False
+93.6980 	EXP 	triangle: autoDraw = False
+93.6980 	EXP 	next_game: autoDraw = False
+93.6980 	EXP 	circle: texRes = 128.0
+93.6980 	EXP 	star: texRes = 128.0
+93.6980 	EXP 	triangle: texRes = 128.0
+93.6980 	EXP 	circle: autoDraw = True
+93.6980 	EXP 	star: autoDraw = True
+93.6980 	EXP 	triangle: autoDraw = True
+93.6980 	EXP 	next_game: autoDraw = True
+93.7972 	EXP 	New trial (rep=61, index=0): None
+93.8305 	EXP 	circle: autoDraw = False
+93.8305 	EXP 	star: autoDraw = False
+93.8305 	EXP 	triangle: autoDraw = False
+93.8305 	EXP 	next_game: autoDraw = False
+93.8305 	EXP 	circle: autoDraw = False
+93.8305 	EXP 	star: autoDraw = False
+93.8305 	EXP 	triangle: autoDraw = False
+93.8305 	EXP 	next_game: autoDraw = False
+93.8305 	EXP 	circle: texRes = 128.0
+93.8305 	EXP 	star: texRes = 128.0
+93.8305 	EXP 	triangle: texRes = 128.0
+93.8305 	EXP 	circle: autoDraw = True
+93.8305 	EXP 	star: autoDraw = True
+93.8305 	EXP 	triangle: autoDraw = True
+93.8305 	EXP 	next_game: autoDraw = True
+93.9338 	EXP 	New trial (rep=62, index=0): None
+93.9766 	EXP 	circle: autoDraw = False
+93.9766 	EXP 	star: autoDraw = False
+93.9766 	EXP 	triangle: autoDraw = False
+93.9766 	EXP 	next_game: autoDraw = False
+93.9766 	EXP 	circle: autoDraw = False
+93.9766 	EXP 	star: autoDraw = False
+93.9766 	EXP 	triangle: autoDraw = False
+93.9766 	EXP 	next_game: autoDraw = False
+93.9766 	EXP 	circle: texRes = 128.0
+93.9766 	EXP 	star: texRes = 128.0
+93.9766 	EXP 	triangle: texRes = 128.0
+93.9766 	EXP 	circle: autoDraw = True
+93.9766 	EXP 	star: autoDraw = True
+93.9766 	EXP 	triangle: autoDraw = True
+93.9766 	EXP 	next_game: autoDraw = True
+94.0774 	EXP 	New trial (rep=63, index=0): None
+94.1116 	EXP 	circle: autoDraw = False
+94.1116 	EXP 	star: autoDraw = False
+94.1116 	EXP 	triangle: autoDraw = False
+94.1116 	EXP 	next_game: autoDraw = False
+94.1116 	EXP 	circle: autoDraw = False
+94.1116 	EXP 	star: autoDraw = False
+94.1116 	EXP 	triangle: autoDraw = False
+94.1116 	EXP 	next_game: autoDraw = False
+94.1116 	EXP 	circle: texRes = 128.0
+94.1116 	EXP 	star: texRes = 128.0
+94.1116 	EXP 	triangle: texRes = 128.0
+94.1116 	EXP 	circle: autoDraw = True
+94.1116 	EXP 	star: autoDraw = True
+94.1116 	EXP 	triangle: autoDraw = True
+94.1116 	EXP 	next_game: autoDraw = True
+94.2180 	EXP 	New trial (rep=64, index=0): None
+94.2556 	EXP 	circle: autoDraw = False
+94.2556 	EXP 	star: autoDraw = False
+94.2556 	EXP 	triangle: autoDraw = False
+94.2556 	EXP 	next_game: autoDraw = False
+94.2556 	EXP 	circle: autoDraw = False
+94.2556 	EXP 	star: autoDraw = False
+94.2556 	EXP 	triangle: autoDraw = False
+94.2556 	EXP 	next_game: autoDraw = False
+94.2556 	EXP 	circle: texRes = 128.0
+94.2556 	EXP 	star: texRes = 128.0
+94.2556 	EXP 	triangle: texRes = 128.0
+94.2556 	EXP 	circle: autoDraw = True
+94.2556 	EXP 	star: autoDraw = True
+94.2556 	EXP 	triangle: autoDraw = True
+94.2556 	EXP 	next_game: autoDraw = True
+94.3561 	EXP 	New trial (rep=65, index=0): None
+94.3928 	EXP 	circle: autoDraw = False
+94.3928 	EXP 	star: autoDraw = False
+94.3928 	EXP 	triangle: autoDraw = False
+94.3928 	EXP 	next_game: autoDraw = False
+94.3928 	EXP 	circle: autoDraw = False
+94.3928 	EXP 	star: autoDraw = False
+94.3928 	EXP 	triangle: autoDraw = False
+94.3928 	EXP 	next_game: autoDraw = False
+94.3928 	EXP 	circle: texRes = 128.0
+94.3928 	EXP 	star: texRes = 128.0
+94.3928 	EXP 	triangle: texRes = 128.0
+94.3928 	EXP 	circle: autoDraw = True
+94.3928 	EXP 	star: autoDraw = True
+94.3928 	EXP 	triangle: autoDraw = True
+94.3928 	EXP 	next_game: autoDraw = True
+94.4891 	EXP 	New trial (rep=66, index=0): None
+94.5188 	EXP 	circle: autoDraw = False
+94.5188 	EXP 	star: autoDraw = False
+94.5188 	EXP 	triangle: autoDraw = False
+94.5188 	EXP 	next_game: autoDraw = False
+94.5188 	EXP 	circle: autoDraw = False
+94.5188 	EXP 	star: autoDraw = False
+94.5188 	EXP 	triangle: autoDraw = False
+94.5188 	EXP 	next_game: autoDraw = False
+94.5188 	EXP 	circle: texRes = 128.0
+94.5188 	EXP 	star: texRes = 128.0
+94.5188 	EXP 	triangle: texRes = 128.0
+94.5188 	EXP 	circle: autoDraw = True
+94.5188 	EXP 	star: autoDraw = True
+94.5188 	EXP 	triangle: autoDraw = True
+94.5188 	EXP 	next_game: autoDraw = True
+94.5886 	EXP 	New trial (rep=67, index=0): None
+94.6225 	EXP 	circle: autoDraw = False
+94.6225 	EXP 	star: autoDraw = False
+94.6225 	EXP 	triangle: autoDraw = False
+94.6225 	EXP 	next_game: autoDraw = False
+94.6225 	EXP 	circle: autoDraw = False
+94.6225 	EXP 	star: autoDraw = False
+94.6225 	EXP 	triangle: autoDraw = False
+94.6225 	EXP 	next_game: autoDraw = False
+94.6225 	EXP 	circle: texRes = 128.0
+94.6225 	EXP 	star: texRes = 128.0
+94.6225 	EXP 	triangle: texRes = 128.0
+94.6225 	EXP 	circle: autoDraw = True
+94.6225 	EXP 	star: autoDraw = True
+94.6225 	EXP 	triangle: autoDraw = True
+94.6225 	EXP 	next_game: autoDraw = True
+94.7217 	EXP 	New trial (rep=68, index=0): None
+94.7529 	EXP 	circle: autoDraw = False
+94.7529 	EXP 	star: autoDraw = False
+94.7529 	EXP 	triangle: autoDraw = False
+94.7529 	EXP 	next_game: autoDraw = False
+94.7529 	EXP 	circle: autoDraw = False
+94.7529 	EXP 	star: autoDraw = False
+94.7529 	EXP 	triangle: autoDraw = False
+94.7529 	EXP 	next_game: autoDraw = False
+94.7529 	EXP 	circle: texRes = 128.0
+94.7529 	EXP 	star: texRes = 128.0
+94.7529 	EXP 	triangle: texRes = 128.0
+94.7529 	EXP 	circle: autoDraw = True
+94.7529 	EXP 	star: autoDraw = True
+94.7529 	EXP 	triangle: autoDraw = True
+94.7529 	EXP 	next_game: autoDraw = True
+94.8550 	EXP 	New trial (rep=69, index=0): None
+94.8958 	EXP 	circle: autoDraw = False
+94.8958 	EXP 	star: autoDraw = False
+94.8958 	EXP 	triangle: autoDraw = False
+94.8958 	EXP 	next_game: autoDraw = False
+94.8958 	EXP 	circle: autoDraw = False
+94.8958 	EXP 	star: autoDraw = False
+94.8958 	EXP 	triangle: autoDraw = False
+94.8958 	EXP 	next_game: autoDraw = False
+94.8958 	EXP 	circle: texRes = 128.0
+94.8958 	EXP 	star: texRes = 128.0
+94.8958 	EXP 	triangle: texRes = 128.0
+94.8958 	EXP 	circle: autoDraw = True
+94.8958 	EXP 	star: autoDraw = True
+94.8958 	EXP 	triangle: autoDraw = True
+94.8958 	EXP 	next_game: autoDraw = True
+94.9934 	EXP 	New trial (rep=70, index=0): None
+95.0335 	EXP 	circle: autoDraw = False
+95.0335 	EXP 	star: autoDraw = False
+95.0335 	EXP 	triangle: autoDraw = False
+95.0335 	EXP 	next_game: autoDraw = False
+95.0335 	EXP 	circle: autoDraw = False
+95.0335 	EXP 	star: autoDraw = False
+95.0335 	EXP 	triangle: autoDraw = False
+95.0335 	EXP 	next_game: autoDraw = False
+95.0335 	EXP 	circle: texRes = 128.0
+95.0335 	EXP 	star: texRes = 128.0
+95.0335 	EXP 	triangle: texRes = 128.0
+95.0335 	EXP 	circle: autoDraw = True
+95.0335 	EXP 	star: autoDraw = True
+95.0335 	EXP 	triangle: autoDraw = True
+95.0335 	EXP 	next_game: autoDraw = True
+95.1676 	EXP 	circle: autoDraw = False
+95.1676 	EXP 	star: autoDraw = False
+95.1676 	EXP 	triangle: autoDraw = False
+95.1676 	EXP 	next_game: autoDraw = False
+95.1676 	EXP 	circle: autoDraw = False
+95.1676 	EXP 	star: autoDraw = False
+95.1676 	EXP 	triangle: autoDraw = False
+95.1676 	EXP 	next_game: autoDraw = False
+95.1676 	EXP 	circle_2: texRes = 128.0
+95.1676 	EXP 	star_2: texRes = 128.0
+95.1676 	EXP 	triangle_2: texRes = 128.0
+95.1676 	EXP 	circle_2: autoDraw = True
+95.1676 	EXP 	star_2: autoDraw = True
+95.1676 	EXP 	triangle_2: autoDraw = True
+95.1676 	EXP 	next_game_2: autoDraw = True
+95.9374 	DATA 	Mouse: Left button down, pos=(1356,474)
+96.1711 	DATA 	Mouse:  Left button up, pos=(1356,474)
+96.9779 	DATA 	Mouse: Left button down, pos=(1429,454)
+97.1018 	DATA 	Mouse:  Left button up, pos=(1429,454)
+97.7695 	DATA 	Mouse: Left button down, pos=(1429,454)
+97.8365 	DATA 	Mouse:  Left button up, pos=(1429,454)
+97.9698 	DATA 	Mouse: Left button down, pos=(1429,454)
+98.0368 	DATA 	Mouse:  Left button up, pos=(1429,454)
+98.1391 	DATA 	Mouse: Left button down, pos=(1429,454)
+98.1719 	DATA 	Mouse:  Left button up, pos=(1429,454)
+98.4045 	DATA 	Mouse: Left button down, pos=(1429,454)
+98.5059 	DATA 	Mouse:  Left button up, pos=(1429,454)
+98.6067 	DATA 	Mouse: Left button down, pos=(1429,454)
+98.6398 	DATA 	Mouse:  Left button up, pos=(1429,454)
+98.7398 	DATA 	Mouse: Left button down, pos=(1429,454)
+98.8050 	DATA 	Mouse:  Left button up, pos=(1429,454)
+100.6056 	DATA 	Mouse: Left button down, pos=(920,589)
+100.7051 	DATA 	Mouse:  Left button up, pos=(920,589)
+100.8040 	DATA 	Mouse: Left button down, pos=(920,589)
+100.8746 	DATA 	Mouse:  Left button up, pos=(920,589)
+100.9698 	DATA 	Mouse: Left button down, pos=(920,589)
+101.2051 	DATA 	Mouse:  Left button up, pos=(920,589)
+102.2698 	DATA 	Keypress: escape
+102.6174 	EXP 	window1: mouseVisible = True
